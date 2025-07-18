@@ -9,14 +9,12 @@
 		"pattern": ["##"],
 		"key": {
 			"#": {
-				"item": "minecraft:stone_slab4",
-				"data": 0
+				"item": "minecraft:mossy_stone_brick_slab"
 			}
 		},
 		"result": {
 			"item": "minecraft:stonebrick",
-			"count": 1,
-			"data": 1
+			"count": 1
 		},
 		"group": "slabs_to_blocks"
 	}

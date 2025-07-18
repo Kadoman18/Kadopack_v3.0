@@ -1,5 +1,5 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:phantom",
@@ -25,22 +25,10 @@
 				"phantom_base_pose": "animation.phantom.base_pose",
 				"move": "animation.phantom.move"
 			},
-			"animation_controllers": [
-				{
-					"phantom_base_pose": "controller.animation.phantom.base_pose"
-				},
-				{
-					"move": "controller.animation.phantom.move"
-				}
-			],
 			"particle_effects": {
 				"wing_dust": "minecraft:phantom_trail_particle"
 			},
-			"render_controllers": ["controller.render.phantom"],
-			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 51
-			}
+			"render_controllers": ["controller.render.phantom"]
 		}
 	}
 }

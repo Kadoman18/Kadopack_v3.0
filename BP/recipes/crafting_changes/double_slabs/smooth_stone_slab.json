@@ -12,9 +12,8 @@
 			}
 		],
 		"result": {
-			"item": "minecraft:stone_slab",
-			"count": 2,
-			"data": 0
+			"item": "minecraft:smooth_stone_slab",
+			"count": 2
 		},
 		"group": "block_to_2_slabs"
 	}

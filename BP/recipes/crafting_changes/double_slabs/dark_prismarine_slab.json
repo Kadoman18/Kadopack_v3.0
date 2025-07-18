@@ -8,14 +8,12 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:prismarine",
-				"data": 1
+				"item": "minecraft:prismarine"
 			}
 		],
 		"result": {
-			"item": "minecraft:stone_slab2",
-			"count": 2,
-			"data": 3
+			"item": "minecraft:dark_prismarine_slab",
+			"count": 2
 		},
 		"group": "block_to_2_slabs"
 	}

@@ -8,8 +8,7 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:cobbled_deepslate",
-				"data": 5
+				"item": "minecraft:cobbled_deepslate"
 			}
 		],
 		"result": {

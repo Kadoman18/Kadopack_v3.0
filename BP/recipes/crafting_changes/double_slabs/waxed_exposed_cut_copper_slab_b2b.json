@@ -8,8 +8,7 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:waxed_exposed_cut_copper",
-				"data": 5
+				"item": "minecraft:waxed_exposed_cut_copper"
 			}
 		],
 		"result": {

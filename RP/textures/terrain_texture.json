@@ -70,6 +70,9 @@
 		"yellow_glass_trapdoor": {
 			"textures": "textures/blocks/trapdoors/yellow_glass_trapdoor"
 		},
+		"glow_item_frame": {
+			"textures": "textures/blocks/nothing"
+		},
 		"grass_side": {
 			"textures": [
 				{
@@ -158,15 +161,15 @@
 		"hopper_up": {
 			"textures": [
 				"textures/blocks/hopper/hopper_top",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_top_front",
 				"textures/blocks/hopper/hopper_top_back",
 				"textures/blocks/hopper/hopper_top_left",
 				"textures/blocks/hopper/hopper_top_right",
-				"textures/blocks/hopper/nothing",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_top_power",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_top_front_power",
 				"textures/blocks/hopper/hopper_top_back_power",
 				"textures/blocks/hopper/hopper_top_left_power",
@@ -176,15 +179,15 @@
 		"hopper_down": {
 			"textures": [
 				"textures/blocks/hopper/hopper_inside",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_inside",
 				"textures/blocks/hopper/hopper_inside",
 				"textures/blocks/hopper/hopper_inside",
 				"textures/blocks/hopper/hopper_inside",
-				"textures/blocks/hopper/nothing",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_inside",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_inside",
 				"textures/blocks/hopper/hopper_inside",
 				"textures/blocks/hopper/hopper_inside",
@@ -194,15 +197,15 @@
 		"hopper_north": {
 			"textures": [
 				"textures/blocks/hopper/hopper_side",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_down",
 				"textures/blocks/hopper/hopper_side_up",
 				"textures/blocks/hopper/hopper_side_right",
 				"textures/blocks/hopper/hopper_side_left",
-				"textures/blocks/hopper/nothing",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_power",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_down_power",
 				"textures/blocks/hopper/hopper_side_up_power",
 				"textures/blocks/hopper/hopper_side_right_power",
@@ -212,15 +215,15 @@
 		"hopper_south": {
 			"textures": [
 				"textures/blocks/hopper/hopper_side",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_up",
 				"textures/blocks/hopper/hopper_side_down",
 				"textures/blocks/hopper/hopper_side_left",
 				"textures/blocks/hopper/hopper_side_right",
-				"textures/blocks/hopper/nothing",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_power",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_up_power",
 				"textures/blocks/hopper/hopper_side_down_power",
 				"textures/blocks/hopper/hopper_side_left_power",
@@ -230,15 +233,15 @@
 		"hopper_west": {
 			"textures": [
 				"textures/blocks/hopper/hopper_side",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_left",
 				"textures/blocks/hopper/hopper_side_right",
 				"textures/blocks/hopper/hopper_side_down",
 				"textures/blocks/hopper/hopper_side_up",
-				"textures/blocks/hopper/nothing",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_power",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_left_power",
 				"textures/blocks/hopper/hopper_side_right_power",
 				"textures/blocks/hopper/hopper_side_down_power",
@@ -248,15 +251,15 @@
 		"hopper_east": {
 			"textures": [
 				"textures/blocks/hopper/hopper_side",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_right",
 				"textures/blocks/hopper/hopper_side_left",
 				"textures/blocks/hopper/hopper_side_up",
 				"textures/blocks/hopper/hopper_side_down",
-				"textures/blocks/hopper/nothing",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_power",
-				"textures/blocks/hopper/nothing",
+				"textures/blocks/nothing",
 				"textures/blocks/hopper/hopper_side_right_power",
 				"textures/blocks/hopper/hopper_side_left_power",
 				"textures/blocks/hopper/hopper_side_up_power",
@@ -465,7 +468,6 @@
 		"waxed_weathered_copper_trapdoor": {
 			"textures": "textures/blocks/waxed/waxed_weathered_copper_trapdoor"
 		},
-		/* ------ MOB HEADS ------ */
 		"aggressive_panda_head": {
 			"textures": "textures/blocks/mob_heads/panda/aggressive"
 		},
@@ -1024,10 +1026,12 @@
 		"zombified_unskilled_villager_head": {
 			"textures": "textures/blocks/mob_heads/zombified_villagers/unskilled"
 		},
+		"zombified_villager_head": {
+			"textures": "textures/blocks/mob_heads/zombified_villagers/unskilled"
+		},
 		"zombified_weaponsmith_villager_head": {
 			"textures": "textures/blocks/mob_heads/zombified_villagers/weaponsmith"
 		},
-		/* ------ MINI BLOCKS ------ */
 		"acacia_log_mini_block": {
 			"textures": "textures/blocks/mini_blocks/acacia_log"
 		},

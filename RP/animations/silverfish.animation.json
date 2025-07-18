@@ -4,9 +4,6 @@
 		"animation.silverfish.move": {
 			"loop": true,
 			"bones": {
-				"bodyPart_0": {
-					"rotation": [0, "math.cos(q.life_time*800)*10", 0]
-				},
 				"tail": {
 					"rotation": [0, "-math.cos(q.life_time*800)*20", 0]
 				},

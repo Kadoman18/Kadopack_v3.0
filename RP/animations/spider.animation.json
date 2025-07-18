@@ -209,6 +209,9 @@
 				}
 			}
 		},
+		"animation.spider.upside_down": {
+			"loop": true
+		},
 		"animation.spider.look_at_target_upside_down": {
 			"loop": true,
 			"bones": {

@@ -1,9 +1,9 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:husk",
-			"min_engine_version": "1.8.0",
+			"min_engine_version": "1.10.0",
 			"materials": {
 				"default": "husk"
 			},
@@ -89,11 +89,7 @@
 				}
 			],
 			"render_controllers": ["controller.render.husk"],
-			"enable_attachables": true,
-			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 28
-			}
+			"enable_attachables": true
 		}
 	}
 }

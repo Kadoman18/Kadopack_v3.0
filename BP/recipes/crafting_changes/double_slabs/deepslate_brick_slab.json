@@ -8,8 +8,7 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:deepslate_bricks",
-				"data": 5
+				"item": "minecraft:deepslate_bricks"
 			}
 		],
 		"result": {

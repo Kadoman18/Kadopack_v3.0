@@ -162,7 +162,7 @@
 						{
 							"wants": [
 								{
-									"item": "minecraft:turtle_shell_piece",
+									"item": "minecraft:scute",
 									"quantity": 4,
 									"price_multiplier": 0.05
 								}

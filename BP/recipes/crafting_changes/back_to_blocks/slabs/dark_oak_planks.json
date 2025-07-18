@@ -9,14 +9,12 @@
 		"pattern": ["##"],
 		"key": {
 			"#": {
-				"item": "minecraft:wooden_slab",
-				"data": 5
+				"item": "minecraft:wooden_slab"
 			}
 		},
 		"result": {
 			"item": "minecraft:planks",
-			"count": 1,
-			"data": 5
+			"count": 1
 		},
 		"group": "slabs_to_blocks"
 	}

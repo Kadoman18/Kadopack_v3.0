@@ -39,7 +39,7 @@
 							],
 							"gives": [
 								{
-									"item": "minecraft:emptymap:0",
+									"item": "minecraft:empty_map",
 									"quantity": 1
 								}
 							],
@@ -95,7 +95,7 @@
 							],
 							"gives": [
 								{
-									"item": "minecraft:map",
+									"item": "minecraft:filled_map",
 									"filters": {
 										"test": "in_overworld",
 										"subject": "self",
@@ -162,7 +162,7 @@
 							],
 							"gives": [
 								{
-									"item": "minecraft:map",
+									"item": "minecraft:filled_map",
 									"filters": {
 										"test": "in_overworld",
 										"subject": "self",
@@ -201,7 +201,7 @@
 							],
 							"gives": [
 								{
-									"item": "minecraft:map",
+									"item": "minecraft:filled_map",
 									"filters": {
 										"test": "in_overworld",
 										"subject": "self",

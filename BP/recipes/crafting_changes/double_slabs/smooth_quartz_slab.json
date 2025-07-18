@@ -8,14 +8,12 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:quartz_block",
-				"data": 3
+				"item": "minecraft:quartz_block"
 			}
 		],
 		"result": {
-			"item": "minecraft:stone_slab4",
-			"count": 2,
-			"data": 1
+			"item": "minecraft:smooth_quartz_slab",
+			"count": 2
 		},
 		"group": "block_to_2_slabs"
 	}

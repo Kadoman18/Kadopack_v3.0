@@ -24,7 +24,8 @@
 				"item": "minecraft:frame"
 			},
 			{
-				"item": "minecraft:potion:7"
+				"item": "minecraft:potion",
+				"data": 7
 			},
 			{
 				"item": "minecraft:frame"

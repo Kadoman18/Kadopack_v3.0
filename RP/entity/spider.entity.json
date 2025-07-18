@@ -3,7 +3,7 @@
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:spider",
-			"min_engine_version": "1.8.0",
+			"min_engine_version": "1.10.0",
 			"materials": {
 				"default": "spider",
 				"invisible": "spider_invisible"
@@ -50,11 +50,7 @@
 					{ "death": "!q.is_alive" }
 				]
 			},
-			"render_controllers": ["controller.render.spider"],
-			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 11
-			}
+			"render_controllers": ["controller.render.spider"]
 		}
 	}
 }

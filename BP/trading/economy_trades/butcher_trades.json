@@ -183,7 +183,7 @@
 						{
 							"wants": [
 								{
-									"item": "minecraft:muttonraw",
+									"item": "minecraft:mutton",
 									"quantity": 7,
 									"price_multiplier": 0.05
 								}

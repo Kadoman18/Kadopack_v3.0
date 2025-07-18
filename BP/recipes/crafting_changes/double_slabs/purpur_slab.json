@@ -8,14 +8,12 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:purpur_block",
-				"data": 0
+				"item": "minecraft:purpur_block"
 			}
 		],
 		"result": {
-			"item": "minecraft:stone_slab2",
-			"count": 2,
-			"data": 1
+			"item": "minecraft:purpur_slab",
+			"count": 2
 		},
 		"group": "block_to_2_slabs"
 	}

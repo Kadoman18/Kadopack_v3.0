@@ -50,11 +50,7 @@
 					{ "death": "!q.is_alive" }
 				]
 			},
-			"render_controllers": ["controller.render.spider"],
-			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 22
-			}
+			"render_controllers": ["controller.render.spider"]
 		}
 	}
 }

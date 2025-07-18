@@ -8,8 +8,7 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:cut_copper",
-				"data": 5
+				"item": "minecraft:cut_copper"
 			}
 		],
 		"result": {

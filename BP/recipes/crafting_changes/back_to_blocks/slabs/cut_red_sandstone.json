@@ -9,14 +9,12 @@
 		"pattern": ["##"],
 		"key": {
 			"#": {
-				"item": "minecraft:stone_slab4",
-				"data": 4
+				"item": "minecraft:cut_red_sandstone_slab"
 			}
 		},
 		"result": {
 			"item": "minecraft:red_sandstone",
-			"count": 1,
-			"data": 2
+			"count": 1
 		},
 		"group": "slabs_to_blocks"
 	}

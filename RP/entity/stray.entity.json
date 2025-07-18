@@ -1,9 +1,9 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:stray",
-			"min_engine_version": "1.8.0",
+			"min_engine_version": "1.10.0",
 			"materials": {
 				"default": "stray",
 				"overlay": "stray_clothes"
@@ -15,10 +15,6 @@
 			"geometry": {
 				"default": "geometry.kado.skeleton_stray",
 				"overlay": "geometry.kado.stray_armor"
-			},
-			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 27
 			},
 			"scripts": {
 				"pre_animation": [

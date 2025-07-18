@@ -8,8 +8,7 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:blackstone",
-				"data": 5
+				"item": "minecraft:blackstone"
 			}
 		],
 		"result": {

@@ -253,7 +253,6 @@
 					"num_to_select": 1,
 					"trades": [
 						{
-							// Book and quill can only have a single item per stack
 							"wants": [
 								{
 									"item": "minecraft:writable_book",
@@ -368,7 +367,7 @@
 							],
 							"gives": [
 								{
-									"item": "minecraft:nametag",
+									"item": "minecraft:name_tag",
 									"quantity": 1
 								}
 							],

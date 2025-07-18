@@ -17,7 +17,7 @@
 					"position": [
 						-14.0,
 						17.0,
-						"(query.get_equipped_item_name == 'bow') && (query.main_hand_item_use_duration > 0.0f) ? -25.0 : 2.0"
+						"(query.is_item_name_any == 'bow') && (query.main_hand_item_use_duration > 0.0f) ? -25.0 : 2.0"
 					],
 					"rotation": [0.0, 185.0, 178.0],
 					"scale": [-1.0, 1.0, 1.0]

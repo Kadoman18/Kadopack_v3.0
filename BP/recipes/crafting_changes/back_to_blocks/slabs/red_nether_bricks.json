@@ -9,14 +9,12 @@
 		"pattern": ["##"],
 		"key": {
 			"#": {
-				"item": "minecraft:stone_slab2",
-				"data": 7
+				"item": "minecraft:red_nether_brick_slab"
 			}
 		},
 		"result": {
 			"item": "minecraft:red_nether_brick",
-			"count": 1,
-			"data": 0
+			"count": 1
 		},
 		"group": "slabs_to_blocks"
 	}

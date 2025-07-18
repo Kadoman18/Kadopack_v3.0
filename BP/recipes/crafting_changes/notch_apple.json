@@ -7,7 +7,7 @@
 		"tags": ["crafting_table"],
 		"priority": 0,
 		"result": {
-			"item": "minecraft:appleenchanted",
+			"item": "minecraft:enchanted_golden_apple",
 			"count": 1
 		},
 		"pattern": ["GGG", "G#G", "GGG"],

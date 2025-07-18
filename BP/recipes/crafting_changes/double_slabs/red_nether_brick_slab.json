@@ -8,14 +8,12 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:red_nether_brick",
-				"data": 0
+				"item": "minecraft:red_nether_brick"
 			}
 		],
 		"result": {
-			"item": "minecraft:stone_slab2",
-			"count": 2,
-			"data": 7
+			"item": "minecraft:red_nether_brick_slab",
+			"count": 2
 		},
 		"group": "block_to_2_slabs"
 	}

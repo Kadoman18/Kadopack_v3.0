@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "kado:horsearmorgold"
+			"identifier": "kado:golden_horse_armor"
 		},
 		"tags": ["crafting_table"],
 		"priority": 0,
@@ -16,7 +16,7 @@
 			}
 		},
 		"result": {
-			"item": "minecraft:horsearmorgold"
+			"item": "minecraft:golden_horse_armor"
 		},
 		"group": "horse_armor"
 	}

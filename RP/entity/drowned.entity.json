@@ -73,11 +73,7 @@
 				"swimming": "animation.zombie.swimming"
 			},
 			"render_controllers": ["controller.render.drowned"],
-			"enable_attachables": true,
-			"spawn_egg": {
-				"texture": "spawn_egg",
-				"texture_index": 48
-			}
+			"enable_attachables": true
 		}
 	}
 }

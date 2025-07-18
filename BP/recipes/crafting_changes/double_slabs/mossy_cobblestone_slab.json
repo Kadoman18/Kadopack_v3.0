@@ -8,14 +8,12 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:mossy_cobblestone",
-				"data": 0
+				"item": "minecraft:mossy_cobblestone"
 			}
 		],
 		"result": {
-			"item": "minecraft:stone_slab2",
-			"count": 2,
-			"data": 5
+			"item": "minecraft:mossy_cobblestone_slab",
+			"count": 2
 		},
 		"group": "block_to_2_slabs"
 	}
