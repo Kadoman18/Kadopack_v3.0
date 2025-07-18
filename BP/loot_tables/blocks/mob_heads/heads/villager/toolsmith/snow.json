@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "kado:snow_toolsmith_head",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{ "type": "item", "name": "kado:weathered_cut_copper_mini_block" }
+			]
+		}
+	]
+}

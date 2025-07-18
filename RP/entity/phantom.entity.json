@@ -1,0 +1,46 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:phantom",
+			"materials": {
+				"default": "skeleton",
+				"invisible": "phantom_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/phantom/phantom",
+				"default2": "textures/entity/phantom/phantom2"
+			},
+			"geometry": {
+				"default": "geometry.kado.phantom"
+			},
+			"scripts": {
+				"pre_animation": [
+					"v.wingRotZ = 16.0 * Math.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 7.448454);",
+					"v.tailRotX = -5.0 * Math.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 14.896908) - 5.0;",
+					"v.Xvar = (v.Xvar ?? Math.random(0,999));"
+				]
+			},
+			"animations": {
+				"phantom_base_pose": "animation.phantom.base_pose",
+				"move": "animation.phantom.move"
+			},
+			"animation_controllers": [
+				{
+					"phantom_base_pose": "controller.animation.phantom.base_pose"
+				},
+				{
+					"move": "controller.animation.phantom.move"
+				}
+			],
+			"particle_effects": {
+				"wing_dust": "minecraft:phantom_trail_particle"
+			},
+			"render_controllers": ["controller.render.phantom"],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 51
+			}
+		}
+	}
+}

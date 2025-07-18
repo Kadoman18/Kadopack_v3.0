@@ -1,0 +1,10 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{ "type": "item", "name": "kado:dried_kelp_block_mini_block" }
+			]
+		}
+	]
+}

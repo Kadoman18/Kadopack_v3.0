@@ -1,0 +1,35 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/bee/bee.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/bee/angry.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/bee/pollinated.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/bee/angry_pollinated.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				},
+				{
+					"condition": "random_chance_with_looting",
+					"chance": 0.02,
+					"looting_multiplier": 0.02
+				}
+			]
+		}
+	]
+}

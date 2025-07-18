@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:pale_oak_planks.from_stair"
+		},
+		"tags": ["crafting_table"],
+		"priority": 1,
+		"ingredients": [
+			{
+				"item": "minecraft:pale_oak_stairs"
+			},
+			{
+				"item": "minecraft:pale_oak_stairs"
+			},
+			{
+				"item": "minecraft:pale_oak_stairs"
+			},
+			{
+				"item": "minecraft:pale_oak_stairs"
+			}
+		],
+		"result": {
+			"item": "minecraft:pale_oak_planks",
+			"count": 3,
+			"data": 0
+		},
+		"group": "stairs_to_block"
+	}
+}

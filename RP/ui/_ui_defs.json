@@ -1,0 +1,7 @@
+{
+	"ui_defs": [
+		"uikp/tweaks/brewing_guide.uikp",
+		"uikp/tweaks/brewing_icons.uikp",
+		"uikp/tweaks/quick_crafting.uikp"
+	]
+}

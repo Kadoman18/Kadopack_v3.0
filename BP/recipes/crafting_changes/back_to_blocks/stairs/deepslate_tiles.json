@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:deepslate_tiles.from_stair"
+		},
+		"tags": ["crafting_table"],
+		"priority": 1,
+		"ingredients": [
+			{
+				"item": "minecraft:deepslate_tile_stairs"
+			},
+			{
+				"item": "minecraft:deepslate_tile_stairs"
+			},
+			{
+				"item": "minecraft:deepslate_tile_stairs"
+			},
+			{
+				"item": "minecraft:deepslate_tile_stairs"
+			}
+		],
+		"result": {
+			"item": "minecraft:deepslate_tiles",
+			"count": 3
+		},
+		"group": "stairs_to_block"
+	}
+}

@@ -1,0 +1,144 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "kado:pink_glass_trapdoor",
+			"menu_category": {
+				"category": "construction",
+				"group": "minecraft:itemGroup.name.trapdoor"
+			},
+			"states": {
+				"kado:open": [false, true]
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:vertical_half"]
+				},
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"minecraft:custom_components": ["kado:trapdoor"],
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 3, 16]
+			},
+			"tag:one_way_collidable": {},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 3, 16]
+			},
+			"minecraft:geometry": "geometry.trapdoor",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pink_glass_trapdoor",
+					"render_method": "blend"
+				}
+			}
+		},
+		"permutations": [
+			// Top Closed
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 0, 180] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [180, 0, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [180, -270, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [180, 270, 0] }
+				}
+			},
+			// Top Open
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [-270, 0, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [270, 0, -180] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 270, 90] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'top' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [180, -270, -270] }
+				}
+			},
+			// Bottom Closed
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 0, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 180, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 270, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, -270, 0] }
+				}
+			},
+			// Bottom Open
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [90, 0, 180] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [270, 0, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, -270, 90] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('kado:open')",
+				"components": {
+					"minecraft:transformation": { "rotation": [180, 270, -270] }
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "kado:calico_cat_head",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

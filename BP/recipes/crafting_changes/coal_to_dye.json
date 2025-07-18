@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:coal_to_dye"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:coal",
+				"data": 0
+			}
+		],
+		"result": {
+			"item": "minecraft:dye",
+			"count": 1,
+			"data": 16
+		},
+		"group": "changes"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:blackstone_stairs"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["#  ", "## ", "###"],
+		"key": {
+			"#": {
+				"item": "minecraft:blackstone"
+			}
+		},
+		"result": {
+			"item": "minecraft:blackstone_stairs",
+			"count": 8
+		},
+		"group": "stairs"
+	}
+}

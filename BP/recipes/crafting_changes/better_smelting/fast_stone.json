@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "kado:fast_stone"
+		},
+		"tags": ["blast_furnace"],
+		"input": {
+			"item": "minecraft:cobblestone"
+		},
+		"output": {
+			"item": "minecraft:stone"
+		},
+		"group": "better_smelting"
+	}
+}

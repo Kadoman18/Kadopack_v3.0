@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:mangrove_planks.from_stair"
+		},
+		"tags": ["crafting_table"],
+		"priority": 1,
+		"ingredients": [
+			{
+				"item": "minecraft:mangrove_stairs"
+			},
+			{
+				"item": "minecraft:mangrove_stairs"
+			},
+			{
+				"item": "minecraft:mangrove_stairs"
+			},
+			{
+				"item": "minecraft:mangrove_stairs"
+			}
+		],
+		"result": {
+			"item": "minecraft:mangrove_planks",
+			"count": 3
+		},
+		"group": "stairs_to_block"
+	}
+}

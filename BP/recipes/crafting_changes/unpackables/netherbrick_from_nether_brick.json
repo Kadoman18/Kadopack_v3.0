@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:netherbrick_from_nether_brick"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": [" N", "N "],
+		"key": {
+			"N": {
+				"item": "minecraft:nether_brick"
+			}
+		},
+		"result": {
+			"item": "minecraft:netherbrick",
+			"count": 8
+		},
+		"group": "changes"
+	}
+}

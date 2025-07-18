@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:amethyst_block_to_amethyst"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [" #", "# "],
+		"priority": 0,
+		"key": {
+			"#": {
+				"item": "minecraft:amethyst_block"
+			}
+		},
+		"result": {
+			"item": "minecraft:amethyst_shard",
+			"count": 8
+		},
+		"group": "changes"
+	}
+}

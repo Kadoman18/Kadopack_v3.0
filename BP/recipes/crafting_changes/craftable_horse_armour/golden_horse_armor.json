@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:horsearmorgold"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["  #", "#_#", "# #"],
+		"key": {
+			"#": {
+				"item": "minecraft:gold_ingot"
+			},
+			"_": {
+				"item": "minecraft:saddle"
+			}
+		},
+		"result": {
+			"item": "minecraft:horsearmorgold"
+		},
+		"group": "horse_armor"
+	}
+}

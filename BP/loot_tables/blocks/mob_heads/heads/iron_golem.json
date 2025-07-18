@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "kado:iron_golem_head",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "kado:orange_sheep_head",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

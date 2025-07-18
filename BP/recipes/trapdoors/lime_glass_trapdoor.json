@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:lime_glass_trapdoor"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["   ", "###", "###"],
+		"key": {
+			"#": {
+				"item": "minecraft:lime_stained_glass"
+			}
+		},
+		"result": {
+			"item": "kado:lime_glass_trapdoor",
+			"count": 12
+		}
+	}
+}

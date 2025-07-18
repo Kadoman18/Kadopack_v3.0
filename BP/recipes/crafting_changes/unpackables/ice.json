@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:ice_from_packed_ice"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:packed_ice"
+			}
+		],
+		"result": {
+			"item": "minecraft:ice",
+			"count": 9
+		},
+		"group": "unpackable_ice"
+	}
+}

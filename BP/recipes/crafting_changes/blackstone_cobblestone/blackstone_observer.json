@@ -1,0 +1,27 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:blackstone_observer"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["###", "RRQ", "###"],
+		"key": {
+			"#": {
+				"item": "minecraft:blackstone"
+			},
+			"R": {
+				"item": "minecraft:redstone"
+			},
+			"Q": {
+				"item": "minecraft:quartz"
+			}
+		},
+		"result": {
+			"item": "minecraft:observer",
+			"count": 1
+		},
+		"group": "blackstone_cobblestone"
+	}
+}

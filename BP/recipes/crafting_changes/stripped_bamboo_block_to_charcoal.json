@@ -1,0 +1,11 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "kado:stripped_bamboo_block_to_charcoal"
+		},
+		"tags": ["furnace"],
+		"input": "minecraft:stripped_bamboo_block",
+		"output": "minecraft:charcoal"
+	}
+}

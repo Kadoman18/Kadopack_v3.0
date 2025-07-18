@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "kado:fast_glass"
+		},
+		"tags": ["blast_furnace"],
+		"input": {
+			"item": "minecraft:sand"
+		},
+		"output": {
+			"item": "minecraft:glass"
+		},
+		"group": "better_smelting"
+	}
+}

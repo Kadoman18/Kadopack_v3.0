@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:stripped_crimson_hyphae"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_crimson_stem"
+			}
+		},
+		"result": {
+			"item": "minecraft:stripped_crimson_hyphae",
+			"count": 4
+		},
+		"group": "wood"
+	}
+}

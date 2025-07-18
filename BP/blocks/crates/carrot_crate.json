@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "kado:carrot_crate",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"texture": "carrot_crate_side"
+				},
+				"up": {
+					"texture": "carrot_crate_top",
+					"render_method": "alpha_test"
+				},
+				"down": {
+					"texture": "crate_bottom",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.block",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.5
+			}
+		}
+	}
+}

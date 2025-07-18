@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.markers.sphere_inner": {
+			"geometry": "Geometry.sphere_inner",
+			"materials": [
+				{
+					"*": "Material.semi_transparent"
+				}
+			],
+			"textures": [
+				"Texture.sphere_inner"
+			]
+		},
+		"controller.render.markers.sphere_outer": {
+			"geometry": "Geometry.sphere_outer",
+			"materials": [
+				{
+					"*": "Material.semi_transparent"
+				}
+			],
+			"textures": [
+				"Texture.sphere_outer"
+			]
+		}
+	}
+}

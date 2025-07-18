@@ -1,0 +1,46 @@
+{
+	"resource_pack_name": "Kadopack v.3",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"waxed_copper_door": { "textures": "textures/items/waxed_copper_door" },
+		"waxed_exposed_copper_door": {
+			"textures": "textures/items/waxed_exposed_copper_door"
+		},
+		"waxed_weathered_copper_door": {
+			"textures": "textures/items/waxed_weathered_copper_door"
+		},
+		"waxed_oxidized_copper_door": {
+			"textures": "textures/items/waxed_oxidized_copper_door"
+		},
+		"bordure_indented_banner_pattern": {
+			"textures": "textures/items/bordure_indented_banner_pattern"
+		},
+		"creeper_banner_pattern": {
+			"textures": "textures/items/creeper_banner_pattern"
+		},
+		"flower_banner_pattern": {
+			"textures": "textures/items/flower_banner_pattern"
+		},
+		"flow_banner_pattern": {
+			"textures": "textures/items/flow_banner_pattern"
+		},
+		"field_masoned_banner_pattern": {
+			"textures": "textures/items/field_masoned_banner_pattern"
+		},
+		"globe_banner_pattern": {
+			"textures": "textures/items/globe_banner_pattern"
+		},
+		"guster_banner_pattern": {
+			"textures": "textures/items/guster_banner_pattern"
+		},
+		"mojang_banner_pattern": {
+			"textures": "textures/items/mojang_banner_pattern"
+		},
+		"piglin_banner_pattern": {
+			"textures": "textures/items/piglin_banner_pattern"
+		},
+		"skull_banner_pattern": {
+			"textures": "textures/items/skull_banner_pattern"
+		}
+	}
+}

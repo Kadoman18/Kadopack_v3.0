@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:blackstone.craftable"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["$#", "#$"],
+		"key": {
+			"#": {
+				"item": "minecraft:basalt"
+			},
+			"$": {
+				"item": "minecraft:coal"
+			}
+		},
+		"result": {
+			"item": "minecraft:blackstone",
+			"count": 4
+		},
+		"group": "craftable_blackstone"
+	}
+}

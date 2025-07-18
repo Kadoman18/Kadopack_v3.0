@@ -1,0 +1,10 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{ "type": "item", "name": "kado:redstone_lamp_unlit_mini_block" }
+			]
+		}
+	]
+}

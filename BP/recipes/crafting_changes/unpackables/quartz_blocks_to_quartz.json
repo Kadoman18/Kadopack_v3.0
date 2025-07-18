@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:quartz"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": [" Q", "Q "],
+		"key": {
+			"Q": {
+				"item": "minecraft:quartz_block"
+			}
+		},
+		"result": {
+			"item": "minecraft:quartz",
+			"count": 8
+		},
+		"group": "changes"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:waxed_cut_copper.from_slab"
+		},
+		"tags": ["crafting_table"],
+		"priority": 1,
+		"pattern": ["##"],
+		"key": {
+			"#": {
+				"item": "minecraft:waxed_cut_copper_slab",
+				"data": 4
+			}
+		},
+		"result": {
+			"item": "minecraft:waxed_cut_copper",
+			"count": 1,
+			"data": 4
+		},
+		"group": "slabs_to_blocks"
+	}
+}

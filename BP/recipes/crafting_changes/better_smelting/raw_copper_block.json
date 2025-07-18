@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "kado:raw_copper_block_to_copper_block"
+		},
+		"tags": ["blast_furnace"],
+		"input": {
+			"item": "minecraft:raw_copper_block"
+		},
+		"output": {
+			"item": "minecraft:copper_block"
+		},
+		"group": "better_smelting"
+	}
+}

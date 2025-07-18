@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:red_glass_trapdoor"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["   ", "###", "###"],
+		"key": {
+			"#": {
+				"item": "minecraft:red_stained_glass"
+			}
+		},
+		"result": {
+			"item": "kado:red_glass_trapdoor",
+			"count": 12
+		}
+	}
+}

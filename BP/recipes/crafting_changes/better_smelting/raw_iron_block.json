@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "kado:raw_iron_block_to_iron_block"
+		},
+		"tags": ["blast_furnace"],
+		"input": {
+			"item": "minecraft:raw_iron_block"
+		},
+		"output": {
+			"item": "minecraft:iron_block"
+		},
+		"group": "better_smelting"
+	}
+}

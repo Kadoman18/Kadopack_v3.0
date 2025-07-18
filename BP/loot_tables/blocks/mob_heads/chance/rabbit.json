@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/rabbit/black.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/rabbit/black_and_white.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/rabbit/gold.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/rabbit/killer.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/rabbit/salt.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/rabbit/white.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/rabbit/brown.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				},
+				{
+					"condition": "random_chance_with_looting",
+					"chance": 0.05,
+					"looting_multiplier": 0.05
+				}
+			]
+		}
+	]
+}

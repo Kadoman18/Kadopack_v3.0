@@ -1,0 +1,19 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:gray_glass_trapdoor"
+		},
+		"tags": ["crafting_table"],
+		"pattern": ["   ", "###", "###"],
+		"key": {
+			"#": {
+				"item": "minecraft:gray_stained_glass"
+			}
+		},
+		"result": {
+			"item": "kado:gray_glass_trapdoor",
+			"count": 12
+		}
+	}
+}

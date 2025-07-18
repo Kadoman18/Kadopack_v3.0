@@ -1,0 +1,18 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "kado:blue.powder_to_glass"
+		},
+		"tags": ["furnace"],
+		"input": {
+			"item": "minecraft:concrete_powder",
+			"data": 11
+		},
+		"output": {
+			"item": "minecraft:stained_glass",
+			"data": 11
+		},
+		"group": "powder_to_glass"
+	}
+}

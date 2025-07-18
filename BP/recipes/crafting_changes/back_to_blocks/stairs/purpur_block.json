@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:purpur_block.from_stair"
+		},
+		"tags": ["crafting_table"],
+		"priority": 1,
+		"ingredients": [
+			{
+				"item": "minecraft:purpur_stairs"
+			},
+			{
+				"item": "minecraft:purpur_stairs"
+			},
+			{
+				"item": "minecraft:purpur_stairs"
+			},
+			{
+				"item": "minecraft:purpur_stairs"
+			}
+		],
+		"result": {
+			"item": "minecraft:purpur_block",
+			"count": 3,
+			"data": 0
+		},
+		"group": "stairs_to_block"
+	}
+}

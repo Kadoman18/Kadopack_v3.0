@@ -1,0 +1,25 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Kadopack_v3.0 (RP)",
+		"description": "Latest Iteration of the Kadopack after Combining all Kado-Packs.",
+		"uuid": "b31ebaa9-e147-464c-b337-18d461e1f662",
+		"version": [3, 0, 15],
+		"min_engine_version": [1, 21, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"description": "Updated rotation in gui for mob heads.",
+			"uuid": "704db742-ebe0-4fca-a067-ecb637fd2052",
+			"version": [3, 0, 15]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "6ba64500-0849-4f0d-8b23-6da7b85050e3",
+			"version": [3, 0, 11]
+		}
+	],
+	"metadata": { "authors": ["kadoman"] }
+}

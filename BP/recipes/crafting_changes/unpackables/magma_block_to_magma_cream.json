@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:magma_block_to_magma_cream"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:magma"
+			}
+		],
+		"result": {
+			"item": "minecraft:magma_cream",
+			"count": 4
+		},
+		"group": "changes"
+	}
+}

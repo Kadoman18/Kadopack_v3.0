@@ -1,0 +1,10 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{ "type": "item", "name": "kado:raw_gold_block_mini_block" }
+			]
+		}
+	]
+}

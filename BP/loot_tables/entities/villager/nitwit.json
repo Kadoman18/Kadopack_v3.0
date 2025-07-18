@@ -1,0 +1,109 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/chance/villager/nitwit/plains.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 0
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/chance/villager/nitwit/desert.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/chance/villager/nitwit/jungle.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 2
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/chance/villager/nitwit/savanna.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 3
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/chance/villager/nitwit/snow.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 4
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/chance/villager/nitwit/swamp.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 5
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/chance/villager/nitwit/taiga.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "has_mark_variant",
+					"value": 6
+				}
+			]
+		}
+	]
+}

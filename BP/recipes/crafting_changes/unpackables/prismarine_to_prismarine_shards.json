@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:prismarine_shard"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": [" P", "P "],
+		"key": {
+			"P": {
+				"item": "minecraft:prismarine"
+			}
+		},
+		"result": {
+			"item": "minecraft:prismarine_shard",
+			"count": 8
+		},
+		"group": "changes"
+	}
+}

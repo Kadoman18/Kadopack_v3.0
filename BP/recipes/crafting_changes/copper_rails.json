@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:copper_powered_rails"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["X X", "X#X", "XRX"],
+		"key": {
+			"R": {
+				"item": "minecraft:redstone"
+			},
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"X": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:rail"
+			}
+		],
+		"result": {
+			"item": "minecraft:golden_rail",
+			"count": 6
+		},
+		"group": "changes"
+	}
+}

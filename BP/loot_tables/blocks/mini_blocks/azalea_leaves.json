@@ -1,0 +1,10 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{ "type": "item", "name": "kado:azalea_leaves_mini_block" }
+			]
+		}
+	]
+}

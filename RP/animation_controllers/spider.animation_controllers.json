@@ -1,0 +1,72 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.spider.general": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"walking": "q.ground_speed > 0.2"
+						},
+						{
+							"attacking": "v.attack_time > 0"
+						}
+					],
+					"blend_transition": 0.2,
+					"blend_via_shortest_path": true
+				},
+				"walking": {
+					"animations": ["walking"],
+					"transitions": [
+						{
+							"default": "q.ground_speed < 0.2"
+						},
+						{
+							"attacking": "v.attack_time > 0"
+						}
+					],
+					"blend_transition": 0.2,
+					"blend_via_shortest_path": true
+				},
+				"attacking": {
+					"animations": ["attack"],
+					"transitions": [
+						{
+							"default": "q.ground_speed < 0.2 && v.attack_time == 0 && q.all_animations_finished"
+						},
+						{
+							"walking": "q.ground_speed > 0.2 && v.attack_time == 0 && q.all_animations_finished"
+						}
+					],
+					"blend_transition": 0.2,
+					"blend_via_shortest_path": true
+				}
+			}
+		},
+		"controller.animation.spider.orientation_controller": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"climbing": "q.is_wall_climbing && q.ground_speed > 0.2"
+						}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"climbing": {
+					"animations": ["wall_climbing"],
+					"transitions": [
+						{
+							"default": "!q.is_wall_climbing"
+						}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

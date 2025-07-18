@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:charcoal_coal_block"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["###", "###", "###"],
+		"key": {
+			"#": {
+				"item": "minecraft:charcoal"
+			}
+		},
+		"result": {
+			"item": "minecraft:coal_block",
+			"count": 1
+		},
+		"group": "changes"
+	}
+}

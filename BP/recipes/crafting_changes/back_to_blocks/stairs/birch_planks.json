@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:birch_planks.from_stair"
+		},
+		"tags": ["crafting_table"],
+		"priority": 1,
+		"ingredients": [
+			{
+				"item": "minecraft:birch_stairs"
+			},
+			{
+				"item": "minecraft:birch_stairs"
+			},
+			{
+				"item": "minecraft:birch_stairs"
+			},
+			{
+				"item": "minecraft:birch_stairs"
+			}
+		],
+		"result": {
+			"item": "minecraft:planks",
+			"count": 3,
+			"data": 2
+		},
+		"group": "stairs_to_block"
+	}
+}

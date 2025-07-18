@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "minecraft:bucket"
+		},
+		"components": {
+			"minecraft:use_duration": 40,
+			"minecraft:stacked_by_data": false,
+			"minecraft:bucket": {}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.zombie": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"query.is_name_any('Zombie') ? Texture.default : query.is_name_any('Jungle') ? Texture.default2 : query.is_name_any('Frozen') ? Texture.default3 : query.is_name_any('Chainmail') ? Texture.default4 : query.is_name_any('Armored') ? Texture.default5 : query.is_name_any('Lobber') ? Texture.default6 : query.is_name_any('Vine') ? Texture.default7 : query.is_name_any('Icy 3') ? Texture.default8 : Array.Xskins[variable.Xvar]"
+			],
+			"arrays": {
+				"textures": {
+					"Array.Xskins": [
+						"Texture.default",
+						"Texture.default2",
+						"Texture.default3",
+						"Texture.default4",
+						"Texture.default5",
+						"Texture.default6",
+						"Texture.default7",
+						"Texture.default8"
+					]
+				}
+			}
+		}
+	}
+}

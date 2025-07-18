@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "kado:raw_gold_block_to_gold_block"
+		},
+		"tags": ["blast_furnace"],
+		"input": {
+			"item": "minecraft:raw_gold_block"
+		},
+		"output": {
+			"item": "minecraft:gold_block"
+		},
+		"group": "better_smelting"
+	}
+}

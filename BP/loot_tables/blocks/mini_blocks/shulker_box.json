@@ -1,0 +1,8 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [{ "type": "item", "name": "kado:shulker_box_mini_block" }]
+		}
+	]
+}

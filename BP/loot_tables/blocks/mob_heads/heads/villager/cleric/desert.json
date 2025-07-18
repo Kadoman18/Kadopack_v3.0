@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "kado:desert_cleric_head",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

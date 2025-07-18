@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/panda/panda.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/panda/aggressive.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/panda/brown.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/panda/lazy.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/panda/playful.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/panda/weak.json"
+				},
+				{
+					"type": "loot_table",
+					"name": "loot_tables/blocks/mob_heads/heads/panda/worried.json"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "killed_by_player"
+				},
+				{
+					"condition": "random_chance_with_looting",
+					"chance": 0.2,
+					"looting_multiplier": 0.01
+				}
+			]
+		}
+	]
+}

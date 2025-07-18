@@ -1,0 +1,60 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "minecraft:cave_spider",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/spider/cave_spider/cave_spider_red",
+				"blue": "textures/entity/spider/cave_spider/cave_spider_blue",
+				"green": "textures/entity/spider/cave_spider/cave_spider_green",
+				"lime": "textures/entity/spider/cave_spider/cave_spider_lime",
+				"orange": "textures/entity/spider/cave_spider/cave_spider_orange",
+				"purple": "textures/entity/spider/cave_spider/cave_spider_purple",
+				"teal": "textures/entity/spider/cave_spider/cave_spider_teal"
+			},
+			"geometry": {
+				"default": "geometry.kado.spider"
+			},
+			"animations": {
+				"look_at_target": "animation.spider.look_at_target",
+				"fangs": "animation.spider.fangs",
+				"walking": "animation.spider.walking",
+				"wall_climbing": "animation.spider.wall_climbing",
+				"attack": "animation.spider.attack",
+				"upside_down": "animation.spider.upside_down",
+				"look_at_target_upside_down": "animation.spider.look_at_target_upside_down",
+				"death": "animation.spider.death",
+				"general": "controller.animation.spider.general",
+				"orientation_controller": "controller.animation.spider.orientation_controller"
+			},
+			"scripts": {
+				"pre_animation": [
+					"v.Nvar = q.anim_time>0 ? v.Nvar : Math.random(0,1);",
+					"v.Avar = q.anim_time>0 ? v.Avar : Math.random(-20,20);",
+					"v.Xvar = q.anim_time>0 ? v.Xvar : Math.random(0,999);"
+				],
+				"scale": "(0.6+0.2*v.Nvar)",
+				"animate": [
+					"look_at_target",
+					"general",
+					"orientation_controller",
+					"fangs",
+					{
+						"look_at_target_upside_down": "q.is_wall_climbing && q.ground_speed > 0.2"
+					},
+					{ "death": "!q.is_alive" }
+				]
+			},
+			"render_controllers": ["controller.render.spider"],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 22
+			}
+		}
+	}
+}

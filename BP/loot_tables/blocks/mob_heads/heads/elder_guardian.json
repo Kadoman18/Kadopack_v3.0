@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "kado:elder_guardian_head",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

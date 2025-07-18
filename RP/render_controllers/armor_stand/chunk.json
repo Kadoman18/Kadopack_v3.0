@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.markers.chunk": {
+			"arrays": {
+				"geometries": {
+					"Array.geometry": [
+						"Geometry.chunk",
+						"Geometry.chunk3x3",
+						"Geometry.chunk5x5"
+					]
+				}
+			},
+			"geometry": "Array.geometry[variable.marker_chunk_type]",
+			"materials": [
+				{
+					"*": "Material.alpha"
+				}
+			],
+			"textures": [
+				"Texture.chunk"
+			]
+		}
+	}
+}

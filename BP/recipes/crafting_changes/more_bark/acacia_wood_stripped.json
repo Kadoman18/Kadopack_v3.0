@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:acacia_wood_stripped"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["##", "##"],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_acacia_log"
+			}
+		},
+		"result": {
+			"item": "minecraft:wood",
+			"data": 12,
+			"count": 4
+		},
+		"group": "wood"
+	}
+}
