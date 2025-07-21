@@ -1,14 +1,12 @@
 {
-  "format_version": "1.8.0",
-  "render_controllers": {
-    "controller.render.bogged": {
-      "rebuild_animation_matrices": true,
-      "geometry": "Geometry.default",
-      "part_visibility": [
-        { "mushrooms": "!query.is_sheared" }
-      ],
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Texture.default" ]
-    }
-  }
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.bogged": {
+			"rebuild_animation_matrices": true,
+			"geometry": "Geometry.default",
+			"part_visibility": [{ "mushrooms": "!q.is_sheared" }],
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"]
+		}
+	}
 }

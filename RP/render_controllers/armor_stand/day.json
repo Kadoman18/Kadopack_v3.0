@@ -8,9 +8,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Texture.days_in_game"
-			]
+			"textures": ["Texture.days_in_game"]
 		},
 		"controller.render.markers.day_u": {
 			"arrays": {
@@ -35,9 +33,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.day_u]"
-			]
+			"textures": ["Array.numbers[v.day_u]"]
 		},
 		"controller.render.markers.day_t": {
 			"arrays": {
@@ -62,9 +58,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.day_t]"
-			]
+			"textures": ["Array.numbers[v.day_t]"]
 		},
 		"controller.render.markers.day_h": {
 			"arrays": {
@@ -89,9 +83,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.day_h]"
-			]
+			"textures": ["Array.numbers[v.day_h]"]
 		},
 		"controller.render.markers.day_k": {
 			"arrays": {
@@ -116,9 +108,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.day_k]"
-			]
+			"textures": ["Array.numbers[v.day_k]"]
 		},
 		"controller.render.markers.day_k2": {
 			"arrays": {
@@ -143,9 +133,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.day_k2]"
-			]
+			"textures": ["Array.numbers[v.day_k2]"]
 		},
 		"controller.render.markers.day_k3": {
 			"arrays": {
@@ -170,9 +158,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.day_k3]"
-			]
+			"textures": ["Array.numbers[v.day_k3]"]
 		}
 	}
 }

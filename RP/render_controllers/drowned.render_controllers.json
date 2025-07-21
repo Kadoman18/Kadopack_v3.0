@@ -9,7 +9,7 @@
 				}
 			],
 			"textures": [
-				"query.is_name_any('Drowned') ? Texture.default : query.is_name_any('Armored') ? Texture.default2 : query.is_name_any('Chainmail') ? Texture.default3 : Array.Xskins[variable.Xvar]"
+				"q.is_name_any('Drowned') ? Texture.default : q.is_name_any('Armored') ? Texture.default2 : q.is_name_any('Chainmail') ? Texture.default3 : Array.Xskins[v.Xvar]"
 			],
 			"arrays": {
 				"textures": {

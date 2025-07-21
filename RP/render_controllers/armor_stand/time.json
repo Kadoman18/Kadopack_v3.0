@@ -8,9 +8,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Texture.time_ticks"
-			]
+			"textures": ["Texture.time_ticks"]
 		},
 		"controller.render.markers.time_u": {
 			"arrays": {
@@ -35,9 +33,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.time_u]"
-			]
+			"textures": ["Array.numbers[v.time_u]"]
 		},
 		"controller.render.markers.time_t": {
 			"arrays": {
@@ -62,9 +58,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.time_t]"
-			]
+			"textures": ["Array.numbers[v.time_t]"]
 		},
 		"controller.render.markers.time_h": {
 			"arrays": {
@@ -89,9 +83,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.time_h]"
-			]
+			"textures": ["Array.numbers[v.time_h]"]
 		},
 		"controller.render.markers.time_k": {
 			"arrays": {
@@ -116,9 +108,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.time_k]"
-			]
+			"textures": ["Array.numbers[v.time_k]"]
 		},
 		"controller.render.markers.time_k2": {
 			"arrays": {
@@ -143,9 +133,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.time_k2]"
-			]
+			"textures": ["Array.numbers[v.time_k2]"]
 		},
 		"controller.render.markers.time_k3": {
 			"arrays": {
@@ -170,9 +158,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.time_k3]"
-			]
+			"textures": ["Array.numbers[v.time_k3]"]
 		}
 	}
 }

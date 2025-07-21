@@ -4,16 +4,76 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "loot_table",
-					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry.json"
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_ashen.json",
+					"type": "loot_table"
 				},
 				{
-					"type": "loot_table",
-					"name": "loot_tables/blocks/mob_heads/heads/wolf/tame.json"
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_black.json",
+					"type": "loot_table"
 				},
 				{
-					"type": "loot_table",
-					"name": "loot_tables/blocks/mob_heads/heads/wolf/wild.json"
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_chestnut.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_pale.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_rusty.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_snowy.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_spotted.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_striped.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_woods.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/ashen.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/black.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/chestnut.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/pale.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/rusty.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tablesblocks/mob_heads/heads/wolf/snowy.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/spotted.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/striped.json",
+					"type": "loot_table"
+				},
+				{
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/woods.json",
+					"type": "loot_table"
 				}
 			],
 			"conditions": [
@@ -21,8 +81,8 @@
 					"condition": "killed_by_player"
 				},
 				{
-					"condition": "random_chance_with_looting",
 					"chance": 0.01,
+					"condition": "random_chance_with_looting",
 					"looting_multiplier": 0.1
 				}
 			]

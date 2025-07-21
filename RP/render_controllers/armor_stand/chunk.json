@@ -11,15 +11,13 @@
 					]
 				}
 			},
-			"geometry": "Array.geometry[variable.marker_chunk_type]",
+			"geometry": "Array.geometry[v.marker_chunk_type]",
 			"materials": [
 				{
 					"*": "Material.alpha"
 				}
 			],
-			"textures": [
-				"Texture.chunk"
-			]
+			"textures": ["Texture.chunk"]
 		}
 	}
 }

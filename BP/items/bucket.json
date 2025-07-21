@@ -2,12 +2,15 @@
 	"format_version": "1.21.30",
 	"minecraft:item": {
 		"description": {
-			"identifier": "minecraft:bucket"
+			"identifier": "minecraft:empty_bucket"
 		},
 		"components": {
+			"minecraft:icon": "bucket",
 			"minecraft:stacked_by_data": false,
-			"minecraft:bucket": {},
-			"minecraft:icon": "bucket"
+			"minecraft:max_stack_size": 16,
+			"minecraft:bucket": {
+				"type": "empty"
+			}
 		}
 	}
 }

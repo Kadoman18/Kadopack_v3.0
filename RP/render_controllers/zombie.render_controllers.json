@@ -9,7 +9,7 @@
 				}
 			],
 			"textures": [
-				"query.is_name_any('Zombie') ? Texture.default : query.is_name_any('Jungle') ? Texture.default2 : query.is_name_any('Frozen') ? Texture.default3 : query.is_name_any('Chainmail') ? Texture.default4 : query.is_name_any('Armored') ? Texture.default5 : query.is_name_any('Lobber') ? Texture.default6 : query.is_name_any('Vine') ? Texture.default7 : query.is_name_any('Icy 3') ? Texture.default8 : Array.Xskins[variable.Xvar]"
+				"q.is_name_any('Zombie') ? Texture.default : q.is_name_any('Jungle') ? Texture.default2 : q.is_name_any('Frozen') ? Texture.default3 : q.is_name_any('Chainmail') ? Texture.default4 : q.is_name_any('Armored') ? Texture.default5 : q.is_name_any('Lobber') ? Texture.default6 : q.is_name_any('Vine') ? Texture.default7 : q.is_name_any('Icy 3') ? Texture.default8 : Array.Xskins[v.Xvar]"
 			],
 			"arrays": {
 				"textures": {

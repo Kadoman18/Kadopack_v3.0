@@ -5,9 +5,9 @@
 			"identifier": "minecraft:potion"
 		},
 		"components": {
-			"minecraft:max_stack_size": 16,
 			"minecraft:stacked_by_data": true,
-			"minecraft:icon": "potion",
+			"minecraft:max_stack_size": 16,
+			"minecraft:icon": "potion_bottle_drinkable",
 			"minecraft:potion": {
 				"type": "regular"
 			}

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.10.0",
+	"format_version": "1.8.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "minecraft:phantom",
@@ -25,6 +25,14 @@
 				"phantom_base_pose": "animation.phantom.base_pose",
 				"move": "animation.phantom.move"
 			},
+			"animation_controllers": [
+				{
+					"phantom_base_pose": "controller.animation.phantom.base_pose"
+				},
+				{
+					"move": "controller.animation.phantom.move"
+				}
+			],
 			"particle_effects": {
 				"wing_dust": "minecraft:phantom_trail_particle"
 			},

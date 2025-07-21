@@ -13,7 +13,7 @@
 			}
 		},
 		"result": {
-			"item": "minecraft:stone",
+			"item": "minecraft:polished_diorite",
 			"count": 1
 		},
 		"group": "slabs_to_blocks"

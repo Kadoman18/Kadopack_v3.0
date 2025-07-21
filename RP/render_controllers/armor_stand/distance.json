@@ -24,9 +24,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.dist_u]"
-			]
+			"textures": ["Array.numbers[v.dist_u]"]
 		},
 		"controller.render.markers.dist_t": {
 			"arrays": {
@@ -51,9 +49,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.dist_t]"
-			]
+			"textures": ["Array.numbers[v.dist_t]"]
 		}
 	}
 }

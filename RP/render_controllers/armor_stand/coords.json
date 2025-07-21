@@ -8,9 +8,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Texture.coords"
-			]
+			"textures": ["Texture.coords"]
 		},
 		"controller.render.markers.coord_x_u": {
 			"arrays": {
@@ -36,9 +34,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_x_u]"
-			]
+			"textures": ["Array.numbers[v.coord_x_u]"]
 		},
 		"controller.render.markers.coord_x_t": {
 			"arrays": {
@@ -64,9 +60,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_x_t]"
-			]
+			"textures": ["Array.numbers[v.coord_x_t]"]
 		},
 		"controller.render.markers.coord_x_h": {
 			"arrays": {
@@ -92,9 +86,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_x_h]"
-			]
+			"textures": ["Array.numbers[v.coord_x_h]"]
 		},
 		"controller.render.markers.coord_x_k": {
 			"arrays": {
@@ -120,9 +112,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_x_k]"
-			]
+			"textures": ["Array.numbers[v.coord_x_k]"]
 		},
 		"controller.render.markers.coord_x_k2": {
 			"arrays": {
@@ -148,17 +138,12 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_x_k2]"
-			]
+			"textures": ["Array.numbers[v.coord_x_k2]"]
 		},
 		"controller.render.markers.coord_x_k3": {
 			"arrays": {
 				"textures": {
-					"Array.numbers": [
-						"Texture.chr_b",
-						"Texture.chr_m"
-					]
+					"Array.numbers": ["Texture.chr_b", "Texture.chr_m"]
 				}
 			},
 			"geometry": "Geometry.cx_k3",
@@ -167,9 +152,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_xm]"
-			]
+			"textures": ["Array.numbers[v.coord_xm]"]
 		},
 		"controller.render.markers.coord_y_u": {
 			"arrays": {
@@ -195,9 +178,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_y_u]"
-			]
+			"textures": ["Array.numbers[v.coord_y_u]"]
 		},
 		"controller.render.markers.coord_y_t": {
 			"arrays": {
@@ -223,9 +204,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_y_t]"
-			]
+			"textures": ["Array.numbers[v.coord_y_t]"]
 		},
 		"controller.render.markers.coord_y_h": {
 			"arrays": {
@@ -251,9 +230,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_y_h]"
-			]
+			"textures": ["Array.numbers[v.coord_y_h]"]
 		},
 		"controller.render.markers.coord_y_k": {
 			"arrays": {
@@ -279,9 +256,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_y_k]"
-			]
+			"textures": ["Array.numbers[v.coord_y_k]"]
 		},
 		"controller.render.markers.coord_y_k2": {
 			"arrays": {
@@ -307,17 +282,12 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_y_k2]"
-			]
+			"textures": ["Array.numbers[v.coord_y_k2]"]
 		},
 		"controller.render.markers.coord_y_k3": {
 			"arrays": {
 				"textures": {
-					"Array.numbers": [
-						"Texture.chr_b",
-						"Texture.chr_m"
-					]
+					"Array.numbers": ["Texture.chr_b", "Texture.chr_m"]
 				}
 			},
 			"geometry": "Geometry.cy_k3",
@@ -326,9 +296,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_ym]"
-			]
+			"textures": ["Array.numbers[v.coord_ym]"]
 		},
 		"controller.render.markers.coord_z_u": {
 			"arrays": {
@@ -354,9 +322,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_z_u]"
-			]
+			"textures": ["Array.numbers[v.coord_z_u]"]
 		},
 		"controller.render.markers.coord_z_t": {
 			"arrays": {
@@ -382,9 +348,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_z_t]"
-			]
+			"textures": ["Array.numbers[v.coord_z_t]"]
 		},
 		"controller.render.markers.coord_z_h": {
 			"arrays": {
@@ -410,9 +374,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_z_h]"
-			]
+			"textures": ["Array.numbers[v.coord_z_h]"]
 		},
 		"controller.render.markers.coord_z_k": {
 			"arrays": {
@@ -438,9 +400,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_z_k]"
-			]
+			"textures": ["Array.numbers[v.coord_z_k]"]
 		},
 		"controller.render.markers.coord_z_k2": {
 			"arrays": {
@@ -466,17 +426,12 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_z_k2]"
-			]
+			"textures": ["Array.numbers[v.coord_z_k2]"]
 		},
 		"controller.render.markers.coord_z_k3": {
 			"arrays": {
 				"textures": {
-					"Array.numbers": [
-						"Texture.chr_b",
-						"Texture.chr_m"
-					]
+					"Array.numbers": ["Texture.chr_b", "Texture.chr_m"]
 				}
 			},
 			"geometry": "Geometry.cz_k3",
@@ -485,9 +440,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.coord_zm]"
-			]
+			"textures": ["Array.numbers[v.coord_zm]"]
 		}
 	}
 }

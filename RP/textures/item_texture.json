@@ -2,30 +2,35 @@
 	"resource_pack_name": "Kadopack v.3",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"waxed_copper_door": { "textures": "textures/items/waxed_copper_door" },
-		"waxed_exposed_copper_door": {
-			"textures": "textures/items/waxed_exposed_copper_door"
-		},
-		"waxed_weathered_copper_door": {
-			"textures": "textures/items/waxed_weathered_copper_door"
-		},
-		"waxed_oxidized_copper_door": {
-			"textures": "textures/items/waxed_oxidized_copper_door"
-		},
 		"bordure_indented_banner_pattern": {
 			"textures": "textures/items/bordure_indented_banner_pattern"
+		},
+		"bucket": {
+			"textures": [
+				"textures/items/bucket_empty",
+				"textures/items/bucket_milk",
+				"textures/items/bucket_water",
+				"textures/items/bucket_lava",
+				"textures/items/bucket_cod",
+				"textures/items/bucket_salmon",
+				"textures/items/bucket_tropical",
+				"textures/items/bucket_pufferfish",
+				"textures/items/bucket_powder_snow",
+				"textures/items/bucket_axolotl",
+				"textures/items/bucket_tadpole"
+			]
 		},
 		"creeper_banner_pattern": {
 			"textures": "textures/items/creeper_banner_pattern"
 		},
-		"flower_banner_pattern": {
-			"textures": "textures/items/flower_banner_pattern"
+		"field_masoned_banner_pattern": {
+			"textures": "textures/items/field_masoned_banner_pattern"
 		},
 		"flow_banner_pattern": {
 			"textures": "textures/items/flow_banner_pattern"
 		},
-		"field_masoned_banner_pattern": {
-			"textures": "textures/items/field_masoned_banner_pattern"
+		"flower_banner_pattern": {
+			"textures": "textures/items/flower_banner_pattern"
 		},
 		"globe_banner_pattern": {
 			"textures": "textures/items/globe_banner_pattern"
@@ -39,8 +44,114 @@
 		"piglin_banner_pattern": {
 			"textures": "textures/items/piglin_banner_pattern"
 		},
+		"potion_bottle_drinkable": {
+			"textures": [
+				"textures/items/potion_bottle_drinkable",
+				"textures/items/potion_bottle_moveSpeed",
+				"textures/items/potion_bottle_moveSlowdown",
+				"textures/items/potion_bottle_digSpeed",
+				"textures/items/potion_bottle_digSlowdown",
+				"textures/items/potion_bottle_damageBoost",
+				"textures/items/potion_bottle_heal",
+				"textures/items/potion_bottle_harm",
+				"textures/items/potion_bottle_jump",
+				"textures/items/potion_bottle_confusion",
+				"textures/items/potion_bottle_regeneration",
+				"textures/items/potion_bottle_resistance",
+				"textures/items/potion_bottle_fireResistance",
+				"textures/items/potion_bottle_waterBreathing",
+				"textures/items/potion_bottle_invisibility",
+				"textures/items/potion_bottle_blindness",
+				"textures/items/potion_bottle_nightVision",
+				"textures/items/potion_bottle_hunger",
+				"textures/items/potion_bottle_weakness",
+				"textures/items/potion_bottle_poison",
+				"textures/items/potion_bottle_wither",
+				"textures/items/potion_bottle_healthBoost",
+				"textures/items/potion_bottle_absorption",
+				"textures/items/potion_bottle_saturation",
+				"textures/items/potion_bottle_levitation",
+				"textures/items/potion_bottle_turtleMaster",
+				"textures/items/potion_bottle_slowFall",
+				"textures/items/potion_bottle_windCharged",
+				"textures/items/potion_bottle_weaving",
+				"textures/items/potion_bottle_oozing",
+				"textures/items/potion_bottle_infested"
+			]
+		},
+		"potion_bottle_lingering": {
+			"textures": [
+				"textures/items/potion_bottle_lingering",
+				"textures/items/potion_bottle_lingering_moveSpeed",
+				"textures/items/potion_bottle_lingering_moveSlowdown",
+				"textures/items/potion_bottle_lingering_damageBoost",
+				"textures/items/potion_bottle_lingering_heal",
+				"textures/items/potion_bottle_lingering_harm",
+				"textures/items/potion_bottle_lingering_jump",
+				"textures/items/potion_bottle_lingering_regeneration",
+				"textures/items/potion_bottle_lingering_fireResistance",
+				"textures/items/potion_bottle_lingering_waterBreathing",
+				"textures/items/potion_bottle_lingering_invisibility",
+				"textures/items/potion_bottle_lingering_nightVision",
+				"textures/items/potion_bottle_lingering_weakness",
+				"textures/items/potion_bottle_lingering_poison",
+				"textures/items/potion_bottle_lingering_wither",
+				"textures/items/potion_bottle_lingering_turtleMaster",
+				"textures/items/potion_bottle_lingering_slowFall",
+				"textures/items/potion_bottle_lingering_windCharged",
+				"textures/items/potion_bottle_lingering_weaving",
+				"textures/items/potion_bottle_lingering_oozing",
+				"textures/items/potion_bottle_lingering_infested"
+			]
+		},
+		"potion_bottle_splash": {
+			"textures": [
+				"textures/items/potion_bottle_splash",
+				"textures/items/potion_bottle_splash_moveSpeed",
+				"textures/items/potion_bottle_splash_moveSlowdown",
+				"textures/items/potion_bottle_splash_digSpeed",
+				"textures/items/potion_bottle_splash_digSlowdown",
+				"textures/items/potion_bottle_splash_damageBoost",
+				"textures/items/potion_bottle_splash_heal",
+				"textures/items/potion_bottle_splash_harm",
+				"textures/items/potion_bottle_splash_jump",
+				"textures/items/potion_bottle_splash_confusion",
+				"textures/items/potion_bottle_splash_regeneration",
+				"textures/items/potion_bottle_splash_resistance",
+				"textures/items/potion_bottle_splash_fireResistance",
+				"textures/items/potion_bottle_splash_waterBreathing",
+				"textures/items/potion_bottle_splash_invisibility",
+				"textures/items/potion_bottle_splash_blindness",
+				"textures/items/potion_bottle_splash_nightVision",
+				"textures/items/potion_bottle_splash_hunger",
+				"textures/items/potion_bottle_splash_weakness",
+				"textures/items/potion_bottle_splash_poison",
+				"textures/items/potion_bottle_splash_wither",
+				"textures/items/potion_bottle_splash_healthBoost",
+				"textures/items/potion_bottle_splash_absorption",
+				"textures/items/potion_bottle_splash_saturation",
+				"textures/items/potion_bottle_splash_turtleMaster",
+				"textures/items/potion_bottle_splash_slowFall",
+				"textures/items/potion_bottle_splash_windCharged",
+				"textures/items/potion_bottle_splash_weaving",
+				"textures/items/potion_bottle_splash_oozing",
+				"textures/items/potion_bottle_splash_infested"
+			]
+		},
 		"skull_banner_pattern": {
 			"textures": "textures/items/skull_banner_pattern"
+		},
+		"waxed_copper_door": {
+			"textures": "textures/items/waxed_copper_door"
+		},
+		"waxed_exposed_copper_door": {
+			"textures": "textures/items/waxed_exposed_copper_door"
+		},
+		"waxed_oxidized_copper_door": {
+			"textures": "textures/items/waxed_oxidized_copper_door"
+		},
+		"waxed_weathered_copper_door": {
+			"textures": "textures/items/waxed_weathered_copper_door"
 		}
 	}
 }

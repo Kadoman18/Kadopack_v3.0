@@ -5,7 +5,7 @@
 			"loop": true,
 			"bones": {
 				"compass": {
-					"rotation":	[ 0, "-variable.rot+180", 0 ]
+					"rotation": [0, "-v.rot+180", 0]
 				}
 			}
 		}

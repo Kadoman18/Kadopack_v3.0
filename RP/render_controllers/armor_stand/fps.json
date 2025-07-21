@@ -8,9 +8,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Texture.fps"
-			]
+			"textures": ["Texture.fps"]
 		},
 		"controller.render.markers.fps_u": {
 			"arrays": {
@@ -35,9 +33,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.fps_u]"
-			]
+			"textures": ["Array.numbers[v.fps_u]"]
 		},
 		"controller.render.markers.fps_t": {
 			"arrays": {
@@ -62,9 +58,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.fps_t]"
-			]
+			"textures": ["Array.numbers[v.fps_t]"]
 		},
 		"controller.render.markers.fps_h": {
 			"arrays": {
@@ -89,9 +83,7 @@
 					"*": "Material.flat"
 				}
 			],
-			"textures": [
-				"Array.numbers[variable.fps_h]"
-			]
+			"textures": ["Array.numbers[v.fps_h]"]
 		}
 	}
 }

@@ -5,10 +5,10 @@
 			"loop": true,
 			"bones": {
 				"sphere_inner": {
-					"rotation": [ 0.0, "query.life_time * 5.0", 0.0 ]
+					"rotation": [0.0, "q.life_time * 5.0", 0.0]
 				},
 				"sphere_outer": {
-					"rotation": [ 0.0, "query.life_time * 2.5", 0.0 ]
+					"rotation": [0.0, "q.life_time * 2.5", 0.0]
 				}
 			}
 		}
