@@ -16,9 +16,9 @@
 			},
 			"scripts": {
 				"pre_animation": [
-					"v.wingRotZ = 16.0 * Math.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 7.448454);",
-					"v.tailRotX = -5.0 * Math.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 14.896908) - 5.0;",
-					"v.Xvar = (v.Xvar ?? Math.random(0,999));"
+					"v.wingRotZ = 16.0 * m.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 7.448454);",
+					"v.tailRotX = -5.0 * m.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 14.896908) - 5.0;",
+					"v.Xvar = (v.Xvar ?? m.random(0,999));"
 				]
 			},
 			"animations": {

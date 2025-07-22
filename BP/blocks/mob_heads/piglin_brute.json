@@ -32,10 +32,10 @@
 			"minecraft:geometry": {
 				"identifier": "geometry.mini_block",
 				"bone_visibility": {
-					"up_0": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('kado:rotation'), 4)",
-					"up_22_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('kado:rotation') - 1, 4)",
-					"up_45": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('kado:rotation') - 2, 4)",
-					"up_67_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('kado:rotation') - 3, 4)",
+					"up_0": "q.block_state('minecraft:block_face') == 'up' && !m.mod(q.block_state('kado:rotation'), 4)",
+					"up_22_5": "q.block_state('minecraft:block_face') == 'up' && !m.mod(q.block_state('kado:rotation') - 1, 4)",
+					"up_45": "q.block_state('minecraft:block_face') == 'up' && !m.mod(q.block_state('kado:rotation') - 2, 4)",
+					"up_67_5": "q.block_state('minecraft:block_face') == 'up' && !m.mod(q.block_state('kado:rotation') - 3, 4)",
 					"side": "q.block_state('minecraft:block_face') != 'up'"
 				}
 			},

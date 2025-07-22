@@ -17,7 +17,7 @@
 			},
 			"scripts": {
 				"pre_animation": [
-					"v.tcos0 = (Math.cos(q.modified_distance_moved * 38.17) * q.modified_move_speed / v.gliding_speed_value) * 57.3;"
+					"v.tcos0 = (m.cos(q.modified_distance_moved * 38.17) * q.modified_move_speed / v.gliding_speed_value) * 57.3;"
 				],
 				"animate": [
 					{
@@ -50,7 +50,7 @@
 						"swimming": "v.swim_amount > 0.0"
 					}
 				],
-				"initialize": ["v.Xvar = Math.random(0,999);"]
+				"initialize": ["v.Xvar = m.random(0,999);"]
 			},
 			"animations": {
 				"humanoid_big_head": "animation.humanoid.big_head",

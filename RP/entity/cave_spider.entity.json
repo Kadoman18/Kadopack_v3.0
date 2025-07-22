@@ -34,9 +34,9 @@
 			},
 			"scripts": {
 				"pre_animation": [
-					"v.Nvar = q.anim_time>0 ? v.Nvar : Math.random(0,1);",
-					"v.Avar = q.anim_time>0 ? v.Avar : Math.random(-20,20);",
-					"v.Xvar = q.anim_time>0 ? v.Xvar : Math.random(0,999);"
+					"v.Nvar = q.anim_time>0 ? v.Nvar : m.random(0,1);",
+					"v.Avar = q.anim_time>0 ? v.Avar : m.random(-20,20);",
+					"v.Xvar = q.anim_time>0 ? v.Xvar : m.random(0,999);"
 				],
 				"scale": "(0.6+0.2*v.Nvar)",
 				"animate": [

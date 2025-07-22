@@ -16,7 +16,7 @@
 			"minecraft:emitter_shape_point": {},
 			"minecraft:particle_initial_speed": 0.0,
 			"minecraft:particle_lifetime_expression": {
-				"max_lifetime": "Math.random(0.3, 0.5)"
+				"max_lifetime": "m.random(0.3, 0.5)"
 			},
 			"minecraft:particle_appearance_billboard": {
 				"size": [1.0, 1.0],

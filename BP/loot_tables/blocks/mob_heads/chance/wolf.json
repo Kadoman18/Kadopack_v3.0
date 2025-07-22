@@ -28,7 +28,7 @@
 					"type": "loot_table"
 				},
 				{
-					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_spotted.json",
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/angry_spotty.json",
 					"type": "loot_table"
 				},
 				{
@@ -60,11 +60,11 @@
 					"type": "loot_table"
 				},
 				{
-					"name": "loot_tablesblocks/mob_heads/heads/wolf/snowy.json",
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/snowy.json",
 					"type": "loot_table"
 				},
 				{
-					"name": "loot_tables/blocks/mob_heads/heads/wolf/spotted.json",
+					"name": "loot_tables/blocks/mob_heads/heads/wolf/spotty.json",
 					"type": "loot_table"
 				},
 				{
