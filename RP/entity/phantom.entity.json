@@ -16,21 +16,21 @@
 			},
 			"scripts": {
 				"pre_animation": [
-					"v.wingRotZ = 16.0 * m.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 7.448454);",
-					"v.tailRotX = -5.0 * m.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 14.896908) - 5.0;",
-					"v.Xvar = (v.Xvar ?? m.random(0,999));"
+					"v.wingRotZ = 16.0 *math.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 7.448454);",
+					"v.tailRotX = -5.0 *math.sin((v.RuntimeID * 3 + q.life_time * 20.0) * 14.896908) - 5.0;",
+					"v.Xvar = (v.Xvar ??math.random(0,999));"
 				]
 			},
 			"animations": {
-				"phantom_base_pose": "animation.phantom.base_pose",
-				"move": "animation.phantom.move"
+				"phantom_base_pose": "animation.phantomath.base_pose",
+				"move": "animation.phantomath.move"
 			},
 			"animation_controllers": [
 				{
-					"phantom_base_pose": "controller.animation.phantom.base_pose"
+					"phantom_base_pose": "controller.animation.phantomath.base_pose"
 				},
 				{
-					"move": "controller.animation.phantom.move"
+					"move": "controller.animation.phantomath.move"
 				}
 			],
 			"particle_effects": {

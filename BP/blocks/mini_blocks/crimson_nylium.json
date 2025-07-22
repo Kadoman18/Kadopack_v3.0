@@ -24,7 +24,7 @@
 					"texture": "crimson_nylium_mini_block"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/mini_blocks/crimson_nylium.json",
+			"minecraft:loot": "loot_tables/blocks/mini_blocks/crimson_nyliumath.json",
 			"minecraft:collision_box": {
 				"origin": [-4, 0, -4],
 				"size": [8, 8, 8]
@@ -36,10 +36,10 @@
 			"minecraft:geometry": {
 				"identifier": "geometry.mini_block",
 				"bone_visibility": {
-					"up_0": "q.block_state('minecraft:block_face') == 'up' && !m.mod(q.block_state('kado:rotation'), 4)",
-					"up_22_5": "q.block_state('minecraft:block_face') == 'up' && !m.mod(q.block_state('kado:rotation') - 1, 4)",
-					"up_45": "q.block_state('minecraft:block_face') == 'up' && !m.mod(q.block_state('kado:rotation') - 2, 4)",
-					"up_67_5": "q.block_state('minecraft:block_face') == 'up' && !m.mod(q.block_state('kado:rotation') - 3, 4)",
+					"up_0": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('kado:rotation'), 4)",
+					"up_22_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('kado:rotation') - 1, 4)",
+					"up_45": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('kado:rotation') - 2, 4)",
+					"up_67_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('kado:rotation') - 3, 4)",
 					"side": "q.block_state('minecraft:block_face') != 'up'"
 				}
 			},

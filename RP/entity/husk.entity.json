@@ -17,8 +17,8 @@
 			},
 			"scripts": {
 				"pre_animation": [
-					"v.tcos0 = (m.cos(q.modified_distance_moved * 38.17) * q.modified_move_speed / v.gliding_speed_value) * 57.3;",
-					"v.Xvar = (v.Xvar ?? m.random(0,999));"
+					"v.tcos0 = (math.cos(q.modified_distance_moved * 38.17) * q.modified_move_speed / v.gliding_speed_value) * 57.3;",
+					"v.Xvar = (v.Xvar ??math.random(0,999));"
 				]
 			},
 			"animations": {

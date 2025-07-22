@@ -17,11 +17,15 @@
 				"active_time": 0.4
 			},
 			"minecraft:emitter_shape_custom": {
-				"offset": ["m.random(-4, 4)", "m.random(-4, 4)", "m.random(-4, 4)"]
+				"offset": [
+					"math.random(-4, 4)",
+					"math.random(-4, 4)",
+					"math.random(-4, 4)"
+				]
 			},
 			"minecraft:particle_initial_speed": 0.0,
 			"minecraft:particle_lifetime_expression": {
-				"max_lifetime": "m.random(0.3, 0.5)"
+				"max_lifetime": "math.random(0.3, 0.5)"
 			},
 			"minecraft:particle_appearance_billboard": {
 				"size": [1.0, 1.0],

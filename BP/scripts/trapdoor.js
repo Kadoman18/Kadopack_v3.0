@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import {system } from "@minecraft/server";
 /** @type {import("@minecraft/server").BlockCustomComponent} */
 const trapdoorBlockComponent = {
     onPlayerInteract({ block, dimension }) {
@@ -11,7 +11,7 @@ const trapdoorBlockComponent = {
         });
     },
 };
-world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
+system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
     blockComponentRegistry.registerCustomComponent(
         "kado:trapdoor",
         trapdoorBlockComponent

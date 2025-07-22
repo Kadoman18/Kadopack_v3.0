@@ -5,35 +5,35 @@
 			"loop": true,
 			"bones": {
 				"tail": {
-					"rotation": [0, "-m.cos(q.life_time*800)*20", 0]
+					"rotation": [0, "-math.cos(q.life_time*800)*20", 0]
 				},
 				"legsr": {
-					"rotation": ["-m.cos(q.life_time*1200)*10", 0, 0],
+					"rotation": ["-math.cos(q.life_time*1200)*10", 0, 0],
 					"position": [
 						0,
-						"m.cos((q.life_time+5)*1200)*0.25",
-						"m.cos((q.life_time)*600)*0.24"
+						"math.cos((q.life_time+5)*1200)*0.25",
+						"math.cos((q.life_time)*600)*0.24"
 					]
 				},
 				"legsr2": {
-					"rotation": ["m.cos(q.life_time*1200)*10", 0, 0],
+					"rotation": ["math.cos(q.life_time*1200)*10", 0, 0],
 					"position": [
 						0,
-						"m.cos(q.life_time*1200)*0.25",
-						"m.cos(q.life_time*600)*0.24"
+						"math.cos(q.life_time*1200)*0.25",
+						"math.cos(q.life_time*600)*0.24"
 					]
 				},
 				"antenea": {
 					"rotation": [
 						0,
-						"m.cos(q.life_time*300)*(15*m.cos(q.life_time*100)*3)",
+						"math.cos(q.life_time*300)*(15*math.cos(q.life_time*100)*3)",
 						0
 					]
 				},
 				"antenea2": {
 					"rotation": [
 						0,
-						"m.cos((q.life_time-3)*300)*(15*m.cos((q.life_time+15)*200)*3)",
+						"math.cos((q.life_time-3)*300)*(15*math.cos((q.life_time+15)*200)*3)",
 						0
 					]
 				}

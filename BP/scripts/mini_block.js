@@ -1,8 +1,8 @@
-import { world } from "@minecraft/server";
+import {system } from "@minecraft/server";
 /** @param {number} playerYRotation */
 function getPreciseRotation(playerYRotation) {
     if (playerYRotation < 0) playerYRotation += 360;
-    const rotation = m.round(playerYRotation / 22.5);
+    const rotation =math.round(playerYRotation / 22.5);
     return rotation !== 16 ? rotation : 0;
 }
 /** @type {import("@minecraft/server").BlockCustomComponent} */
@@ -17,7 +17,7 @@ const rotationBlockComponent = {
         event.permutationToPlace = event.permutationToPlace.withState("kado:rotation", rotation);
     },
 };
-world.beforeEvents.worldInitialize.subscribe(({ blockComponentRegistry }) => {
+system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
     blockComponentRegistry.registerCustomComponent(
         "kado:mini_block_rotation",
         rotationBlockComponent
