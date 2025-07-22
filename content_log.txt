@@ -1,20 +1,16 @@
 [Scripting][warning]-Copper Slabs script loaded!
 
+[Item][error]-To use item 'minecraft:lingering_potion', use json format version 1.20.0 or higher
+
+[Item][error]-To use item 'minecraft:potion', use json format version 1.20.0 or higher
+
+[Item][error]-To use item 'minecraft:splash_potion', use json format version 1.20.0 or higher
+
 [Item][error]-Item 'minecraft:lingering_potion' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
 
 [Item][error]-Item 'minecraft:splash_potion' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
 
 [Item][error]-Item 'minecraft:potion' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
-
-[Recipes][warning]-recipes/crafting_changes/double_slabs/diorite_slab.json | kado:diorite_to_2_slabs | Recipe "kado:diorite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:diorite_slab instead. Adding duplicate crafting_table recipe.
-
-[Recipes][warning]-recipes/crafting_changes/double_slabs/granite_slab.json | kado:granite_to_2_slabs | Recipe "kado:granite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:granite_slab instead. Adding duplicate crafting_table recipe.
-
-[Recipes][warning]-recipes/crafting_changes/double_slabs/polished_andesite_slab.json | kado:polished_andesite_to_2_slabs | Recipe "kado:polished_andesite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:polished_andesite_slab instead. Adding duplicate crafting_table recipe.
-
-[Recipes][warning]-recipes/crafting_changes/double_slabs/polished_diorite_slab.json | kado:polished_diorite_to_2_slabs | Recipe "kado:polished_diorite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:polished_diorite_slab instead. Adding duplicate crafting_table recipe.
-
-[Recipes][warning]-recipes/crafting_changes/double_slabs/polished_granite_slab.json | kado:polished_granite_to_2_slabs | Recipe "kado:polished_granite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:polished_granite_slab instead. Adding duplicate crafting_table recipe.
 
 [Recipes][warning]-recipes/crafting_changes/double_slabs/prismarine_brick_slab.json | kado:prismarine_brick_to_2_slabs | Recipe "kado:prismarine_brick_to_2_slabs" has the same ingredients as minecraft:dark_prismarine_slab's recipe but outputs minecraft:prismarine_brick_slab instead. Adding duplicate crafting_table recipe.
 
@@ -30,6 +26,8 @@
 
 [Recipes][warning]-recipes/crafting_changes/double_slabs/smooth_sandstone_slab.json | kado:smooth_sandstone_to_2_slabs | Recipe "kado:smooth_sandstone_to_2_slabs" has the same ingredients as minecraft:red_sandstone_slab's recipe but outputs minecraft:smooth_sandstone_slab instead. Adding duplicate crafting_table recipe.
 
+[Recipes][error]-recipes/furnace_cobblestone.json | minecraft:furnace_cobblestone | Duplicate furnace recipe has the same ingredients as minecraft:cobblestone's recipe but outputs minecraft:stone instead. Skipping recipe.
+
 [Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/warped_stemath.json
 
 [Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/warped_nyliumath.json
@@ -41,16 +39,6 @@
 [Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/crimson_stemath.json
 
 [Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/crimson_nyliumath.json
-
-[Recipes][warning]-Recipe "kado:diorite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:diorite_slab instead. Adding duplicate crafting_table recipe.
-
-[Recipes][warning]-Recipe "kado:granite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:granite_slab instead. Adding duplicate crafting_table recipe.
-
-[Recipes][warning]-Recipe "kado:polished_andesite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:polished_andesite_slab instead. Adding duplicate crafting_table recipe.
-
-[Recipes][warning]-Recipe "kado:polished_diorite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:polished_diorite_slab instead. Adding duplicate crafting_table recipe.
-
-[Recipes][warning]-Recipe "kado:polished_granite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:polished_granite_slab instead. Adding duplicate crafting_table recipe.
 
 [Recipes][warning]-Recipe "kado:prismarine_brick_to_2_slabs" has the same ingredients as minecraft:dark_prismarine_slab's recipe but outputs minecraft:prismarine_brick_slab instead. Adding duplicate crafting_table recipe.
 
