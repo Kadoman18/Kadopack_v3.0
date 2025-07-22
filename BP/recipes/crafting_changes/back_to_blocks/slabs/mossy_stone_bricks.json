@@ -13,7 +13,7 @@
 			}
 		},
 		"result": {
-			"item": "minecraft:stonebrick",
+			"item": "minecraft:mossy_stone_bricks",
 			"count": 1
 		},
 		"group": "slabs_to_blocks"

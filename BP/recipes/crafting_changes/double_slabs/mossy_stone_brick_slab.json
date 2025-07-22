@@ -8,7 +8,7 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:stonebrick"
+				"item": "minecraft:mossy_stone_bricks"
 			}
 		],
 		"result": {

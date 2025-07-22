@@ -4,7 +4,7 @@
 		"name": "Kadopack_v3.0 (BP)",
 		"description": "Latest Iteration of the Kadopack after Combining all Kado-Packs.",
 		"uuid": "6ba64500-0849-4f0d-8b23-6da7b85050e3",
-		"version": [3, 1, 8],
+		"version": [3, 1, 9],
 		"min_engine_version": [1, 21, 0]
 	},
 	"modules": [
@@ -12,14 +12,14 @@
 			"type": "data",
 			"description": "Lots of small fixes for version changes.",
 			"uuid": "db986d35-6068-4ff7-9d50-d1f1f44cf4a8",
-			"version": [3, 1, 8]
+			"version": [3, 1, 9]
 		},
 		{
 			"type": "script",
 			"language": "javascript",
 			"entry": "main.js",
 			"uuid": "78696aef-a6b6-4ea8-9937-8d524cc54da8",
-			"version": [1, 0, 3]
+			"version": [1, 0, 4]
 		}
 	],
 	"dependencies": [

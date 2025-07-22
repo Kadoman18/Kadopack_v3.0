@@ -1,7 +1,5 @@
 [Scripting][warning]-Copper Slabs script loaded!
 
-[Item][error]-Item 'minecraft:bucket' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
-
 [Item][error]-Item 'minecraft:lingering_potion' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
 
 [Item][error]-Item 'minecraft:splash_potion' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
@@ -32,15 +30,17 @@
 
 [Recipes][warning]-recipes/crafting_changes/double_slabs/smooth_sandstone_slab.json | kado:smooth_sandstone_to_2_slabs | Recipe "kado:smooth_sandstone_to_2_slabs" has the same ingredients as minecraft:red_sandstone_slab's recipe but outputs minecraft:smooth_sandstone_slab instead. Adding duplicate crafting_table recipe.
 
-[Json][error]- -> components -> minecraft:icon:  Missing referenced asset lingering_potion
+[Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/warped_stemath.json
 
-[Json][error]- -> components -> minecraft:icon:  Missing referenced asset potion
+[Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/warped_nyliumath.json
 
-[Json][error]- -> components -> minecraft:icon:  Missing referenced asset splash_potion
+[Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/myceliumath.json
 
-[Scripting][warning]-[Watchdog] Spike from 'Kadoman's Vertical Slabs (BP)' (127ms)
+[Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/loomath.json
 
-[Scripting][warning]-[Watchdog] Spike from 'Kadopack_v3.0 (BP)' (317ms)
+[Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/crimson_stemath.json
+
+[Json][error]- -> components -> minecraft:loot:  Invalid asset path loot_tables/blocks/mini_blocks/crimson_nyliumath.json
 
 [Recipes][warning]-Recipe "kado:diorite_to_2_slabs" has the same ingredients as minecraft:andesite_slab's recipe but outputs minecraft:diorite_slab instead. Adding duplicate crafting_table recipe.
 
@@ -65,52 +65,4 @@
 [Recipes][warning]-Recipe "kado:smooth_red_sandstone_to_2_slabs" has the same ingredients as minecraft:cut_red_sandstone_slab's recipe but outputs minecraft:smooth_red_sandstone_slab instead. Adding duplicate crafting_table recipe.
 
 [Recipes][warning]-Recipe "kado:smooth_sandstone_to_2_slabs" has the same ingredients as minecraft:red_sandstone_slab's recipe but outputs minecraft:smooth_sandstone_slab instead. Adding duplicate crafting_table recipe.
-
-[Animation][error]-entity/husk.entity.json | minecraft:client_entity | description | animation_controllers | child 'animation_controllers' not valid here.
-
-[Animation][error]-entity/skeleton.entity.json | minecraft:client_entity | description | animation_controllers | child 'animation_controllers' not valid here.
-
-[Animation][error]-entity/stray.entity.json | minecraft:client_entity | description | animation_controllers | child 'animation_controllers' not valid here.
-
-[Animation][error]-entity/wither_skeleton.entity.json | minecraft:client_entity | description | animation_controllers | child 'animation_controllers' not valid here.
-
-[Animation][error]-entity/zombie.entity.json | minecraft:client_entity | description | animation_controllers | child 'animation_controllers' not valid here.
-
-[Molang][error]-minecraft:husk | minecraft:husk | controller.render.husk | Textures | friendly name 'texture.default2' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-minecraft:husk | minecraft:husk | controller.render.husk | Textures | friendly name 'texture.default3' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-minecraft:zombie | minecraft:zombie | controller.render.zombie | Textures | friendly name 'texture.default2' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-minecraft:zombie | minecraft:zombie | controller.render.zombie | Textures | friendly name 'texture.default3' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-minecraft:zombie | minecraft:zombie | controller.render.zombie | Textures | friendly name 'texture.default4' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-minecraft:zombie | minecraft:zombie | controller.render.zombie | Textures | friendly name 'texture.default5' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-minecraft:zombie | minecraft:zombie | controller.render.zombie | Textures | friendly name 'texture.default6' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-minecraft:zombie | minecraft:zombie | controller.render.zombie | Textures | friendly name 'texture.default7' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-minecraft:zombie | minecraft:zombie | controller.render.zombie | Textures | friendly name 'texture.default8' not found in entity friendly name list (geometry.default:material.default:texture.default) - check your spelling?
-
-[Molang][error]-friendly name 'texture.default2' not found in entity friendly name list (geometry.default:texture.default:material.default) - check your spelling?
-
-[Molang][error]-friendly name 'texture.default3' not found in entity friendly name list (geometry.default:texture.default:material.default) - check your spelling?
-
-[Molang][error]-friendly name 'texture.default4' not found in entity friendly name list (geometry.default:texture.default:material.default) - check your spelling?
-
-[Molang][error]-friendly name 'texture.default5' not found in entity friendly name list (geometry.default:texture.default:material.default) - check your spelling?
-
-[Molang][error]-friendly name 'texture.default6' not found in entity friendly name list (geometry.default:texture.default:material.default) - check your spelling?
-
-[Molang][error]-friendly name 'texture.default7' not found in entity friendly name list (geometry.default:texture.default:material.default) - check your spelling?
-
-[Molang][error]-friendly name 'texture.default8' not found in entity friendly name list (geometry.default:texture.default:material.default) - check your spelling?
-
-[Molang][error]-minecraft:zombie | minecraft:zombie | minecraft:zombie | controller.render.zombie | Textures | q.is_name_any('Zombie') ? texture.default : q.is_name_any('Jungle') ? texture.default2 : q.is_name_any('Frozen') ? texture.default3 : q.is_name_any('Chainmail') ? texture.default4 : q.is_name_any('Armored') ? texture.default5 : q.is_name_any('Lobber') ? texture.default6 : q.is_name_any('Vine') ? texture.default7 : q.is_name_any('Icy 3') ? texture.default8 : array.xskins[v.xvar] | Error: unhandled request for unknown v.'v.xvar'
-
-[Molang][error]-minecraft:zombie | MolangScriptArg::get<>() called on incompatible type 
-
-[Rendering][error]-minecraft:zombie | Render Controller: controller.render.zombie is missing its default texture
 

@@ -18,7 +18,7 @@
 	"dependencies": [
 		{
 			"uuid": "6ba64500-0849-4f0d-8b23-6da7b85050e3",
-			"version": [3, 1, 8]
+			"version": [3, 1, 9]
 		}
 	],
 	"metadata": { "authors": ["kadoman"] }

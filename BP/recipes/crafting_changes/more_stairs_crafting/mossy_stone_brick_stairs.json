@@ -9,7 +9,7 @@
 		"pattern": ["#  ", "## ", "###"],
 		"key": {
 			"#": {
-				"item": "minecraft:stonebrick",
+				"item": "minecraft:stone_bricks",
 				"data": 1
 			}
 		},
