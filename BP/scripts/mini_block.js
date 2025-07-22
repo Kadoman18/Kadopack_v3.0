@@ -2,7 +2,7 @@ import {system} from "@minecraft/server";
 /** @param {number} playerYRotation */
 function getPreciseRotation(playerYRotation) {
     if (playerYRotation < 0) playerYRotation += 360;
-    const rotation = math.round(playerYRotation / 22.5);
+    const rotation = Math.round(playerYRotation / 22.5);
     return rotation !== 16 ? rotation : 0;
 }
 /** @type {import("@minecraft/server").BlockCustomComponent} */
