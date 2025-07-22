@@ -27,7 +27,7 @@
 				"parent": "wing0",
 				"pivot": [8, 26, -8],
 				"cubes": [
-					{ "origin": [8, 25, -8], "size": [13, 1, 9], "uv": [16, 24] }
+					{ "origin": [8, 25, -8], "size": [13, 1, 10], "uv": [16, 24] }
 				],
 				"locators": {
 					"left_wing": [21, 26, 0]
@@ -64,7 +64,7 @@
 				"pivot": [-9, 24, -8],
 				"mirror": true,
 				"cubes": [
-					{ "origin": [-22, 25, -8], "size": [13, 1, 9], "uv": [16, 24] }
+					{ "origin": [-22, 25, -8], "size": [13, 1, 10], "uv": [16, 24] }
 				],
 				"locators": {
 					"right_wing": [-22, 24, 0]
