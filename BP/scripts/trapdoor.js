@@ -1,4 +1,4 @@
-import {system } from "@minecraft/server";
+import {system} from "@minecraft/server";
 /** @type {import("@minecraft/server").BlockCustomComponent} */
 const trapdoorBlockComponent = {
     onPlayerInteract({ block, dimension }) {
