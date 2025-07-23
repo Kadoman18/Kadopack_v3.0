@@ -21,9 +21,8 @@
 			}
 		],
 		"result": {
-			"item": "minecraft:red_sandstone",
-			"count": 3,
-			"data": 3
+			"item": "minecraft:smooth_red_sandstone",
+			"count": 3
 		},
 		"group": "stairs_to_block"
 	}

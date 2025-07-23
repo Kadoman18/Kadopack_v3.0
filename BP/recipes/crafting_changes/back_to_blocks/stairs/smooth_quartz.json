@@ -22,8 +22,7 @@
 		],
 		"result": {
 			"item": "minecraft:quartz_block",
-			"count": 3,
-			"data": 3
+			"count": 3
 		},
 		"group": "stairs_to_block"
 	}

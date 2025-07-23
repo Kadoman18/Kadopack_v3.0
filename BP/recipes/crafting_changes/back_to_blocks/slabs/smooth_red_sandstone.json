@@ -13,7 +13,7 @@
 			}
 		},
 		"result": {
-			"item": "minecraft:red_sandstone",
+			"item": "minecraft:smooth_red_sandstone",
 			"count": 1
 		},
 		"group": "slabs_to_blocks"

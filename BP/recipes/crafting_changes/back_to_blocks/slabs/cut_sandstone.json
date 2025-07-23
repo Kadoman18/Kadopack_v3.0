@@ -13,7 +13,7 @@
 			}
 		},
 		"result": {
-			"item": "minecraft:sandstone",
+			"item": "minecraft:cut_sandstone",
 			"count": 1
 		},
 		"group": "slabs_to_blocks"
