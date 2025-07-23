@@ -13,8 +13,7 @@
 			}
 		},
 		"result": {
-			"item": "minecraft:wood",
-			"data": 8,
+			"item": "minecraft:oak_wood_stripped",
 			"count": 4
 		},
 		"group": "wood"

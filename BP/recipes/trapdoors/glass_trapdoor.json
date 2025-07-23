@@ -8,8 +8,7 @@
 		"pattern": ["   ", "###", "###"],
 		"key": {
 			"#": {
-				"item": "minecraft:glass",
-				"data": 0
+				"item": "minecraft:glass"
 			}
 		},
 		"result": {

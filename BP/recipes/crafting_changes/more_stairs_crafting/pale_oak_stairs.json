@@ -10,8 +10,7 @@
 		"pattern": ["#  ", "## ", "###"],
 		"key": {
 			"#": {
-				"item": "minecraft:pale_oak_planks",
-				"data": 0
+				"item": "minecraft:pale_oak_planks"
 			}
 		},
 		"result": {

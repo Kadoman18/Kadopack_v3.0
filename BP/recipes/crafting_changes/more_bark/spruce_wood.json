@@ -9,13 +9,11 @@
 		"pattern": ["##", "##"],
 		"key": {
 			"#": {
-				"item": "minecraft:log",
-				"data": 1
+				"item": "minecraft:spruce_log"
 			}
 		},
 		"result": {
-			"item": "minecraft:wood",
-			"data": 1,
+			"item": "minecraft:spruce_wood",
 			"count": 4
 		},
 		"group": "wood"

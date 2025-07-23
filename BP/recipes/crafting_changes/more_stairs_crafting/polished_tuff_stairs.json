@@ -9,8 +9,7 @@
 		"pattern": ["#  ", "## ", "###"],
 		"key": {
 			"#": {
-				"item": "minecraft:polished_tuff",
-				"data": 0
+				"item": "minecraft:polished_tuff"
 			}
 		},
 		"result": {

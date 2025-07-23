@@ -8,14 +8,12 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:coal",
-				"data": 0
+				"item": "minecraft:coal"
 			}
 		],
 		"result": {
-			"item": "minecraft:dye",
-			"count": 1,
-			"data": 16
+			"item": "minecraft:black_dye",
+			"count": 1
 		},
 		"group": "changes"
 	}

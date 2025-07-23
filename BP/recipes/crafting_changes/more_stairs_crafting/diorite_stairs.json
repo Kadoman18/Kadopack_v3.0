@@ -9,8 +9,7 @@
 		"pattern": ["#  ", "## ", "###"],
 		"key": {
 			"#": {
-				"item": "minecraft:diorite",
-				"data": 3
+				"item": "minecraft:diorite"
 			}
 		},
 		"result": {

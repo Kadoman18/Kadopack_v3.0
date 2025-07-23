@@ -6,12 +6,10 @@
 		},
 		"tags": ["furnace"],
 		"input": {
-			"item": "minecraft:concrete_powder",
-			"data": 10
+			"item": "minecraft:purple_concrete_powder"
 		},
 		"output": {
-			"item": "minecraft:stained_glass",
-			"data": 10
+			"item": "minecraft:purple_stained_glass"
 		},
 		"group": "powder_to_glass"
 	}
