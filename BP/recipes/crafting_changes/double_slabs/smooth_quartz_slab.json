@@ -8,7 +8,7 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:smooth_quartz_block"
+				"item": "minecraft:smooth_quartz"
 			}
 		],
 		"result": {

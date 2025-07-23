@@ -1,0 +1,11 @@
+[Item][error]-To use item 'minecraft:lingering_potion', use json format version 1.20.0 or higher
+
+[Item][error]-To use item 'minecraft:potion', use json format version 1.20.0 or higher
+
+[Item][error]-To use item 'minecraft:splash_potion', use json format version 1.20.0 or higher
+
+[Item][error]-Item 'minecraft:lingering_potion' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
+
+[Item][error]-Item 'minecraft:splash_potion' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
+
+[Item][error]-Item 'minecraft:potion' cannot be registered because it's using the "minecraft" namespace with a file format version of 1.16.100+ or is a non-Vanilla item!
