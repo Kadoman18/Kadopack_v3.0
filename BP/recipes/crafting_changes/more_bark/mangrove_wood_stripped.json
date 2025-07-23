@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "minecraft:mangrove_wood_stripped"
+			"identifier": "minecraft:stripped_mangrove_wood"
 		},
 		"tags": ["crafting_table"],
 		"priority": 0,
@@ -13,7 +13,7 @@
 			}
 		},
 		"result": {
-			"item": "minecraft:mangrove_wood",
+			"item": "minecraft:stripped_mangrove_wood",
 			"count": 4
 		},
 		"group": "wood"

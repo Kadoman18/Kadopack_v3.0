@@ -8,11 +8,11 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:sandstone"
+				"item": "minecraft:cut_sandstone"
 			}
 		],
 		"result": {
-			"item": "minecraft:red_sandstone_slab",
+			"item": "minecraft:cut_sandstone_slab",
 			"count": 2
 		},
 		"group": "block_to_2_slabs"

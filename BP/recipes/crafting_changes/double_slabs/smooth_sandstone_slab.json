@@ -8,7 +8,7 @@
 		"priority": 0,
 		"ingredients": [
 			{
-				"item": "minecraft:sandstone"
+				"item": "minecraft:smooth_sandstone"
 			}
 		],
 		"result": {

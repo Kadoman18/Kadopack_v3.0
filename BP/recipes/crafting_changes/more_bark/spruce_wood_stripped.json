@@ -2,7 +2,7 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "minecraft:spruce_wood_stripped"
+			"identifier": "minecraft:stripped_spruce_wood"
 		},
 		"tags": ["crafting_table"],
 		"priority": 0,
@@ -13,7 +13,7 @@
 			}
 		},
 		"result": {
-			"item": "minecraft:spruce_wood_stripped",
+			"item": "minecraft:stripped_spruce_wood",
 			"count": 4
 		},
 		"group": "wood"

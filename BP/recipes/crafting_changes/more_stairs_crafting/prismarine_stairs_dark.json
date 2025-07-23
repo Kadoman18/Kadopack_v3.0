@@ -2,14 +2,14 @@
 	"format_version": "1.16",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "minecraft:prismarine_stairs_dark"
+			"identifier": "minecraft:dark_prismarine_stairs"
 		},
 		"tags": ["crafting_table"],
 		"priority": 0,
 		"pattern": ["#  ", "## ", "###"],
 		"key": {
 			"#": {
-				"item": "minecraft:prismarine"
+				"item": "minecraft:dark_prismarine"
 			}
 		},
 		"result": {

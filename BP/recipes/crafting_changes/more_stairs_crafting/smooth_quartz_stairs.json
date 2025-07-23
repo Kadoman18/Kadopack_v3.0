@@ -9,7 +9,7 @@
 		"pattern": ["#  ", "## ", "###"],
 		"key": {
 			"#": {
-				"item": "minecraft:quartz_block"
+				"item": "minecraft:smooth_quartz"
 			}
 		},
 		"result": {
