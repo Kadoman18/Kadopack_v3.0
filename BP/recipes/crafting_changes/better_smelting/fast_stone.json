@@ -4,12 +4,12 @@
 		"description": {
 			"identifier": "kado:fast_stone"
 		},
-		"tags": ["furnace"],
+		"tags": ["blast_furnace"],
 		"input": {
 			"item": "minecraft:cobblestone"
 		},
 		"output": {
-			"item": "minecraft:cobblestone"
+			"item": "minecraft:stone"
 		},
 		"group": "better_smelting"
 	}

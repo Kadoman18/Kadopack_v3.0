@@ -22,15 +22,15 @@
 				]
 			},
 			"animations": {
-				"phantom_base_pose": "animation.phantomath.base_pose",
-				"move": "animation.phantomath.move"
+				"phantom_base_pose": "animation.phantom.base_pose",
+				"move": "animation.phantom.move"
 			},
 			"animation_controllers": [
 				{
-					"phantom_base_pose": "controller.animation.phantomath.base_pose"
+					"phantom_base_pose": "controller.animation.phantom.base_pose"
 				},
 				{
-					"move": "controller.animation.phantomath.move"
+					"move": "controller.animation.phantom.move"
 				}
 			],
 			"particle_effects": {

@@ -24,7 +24,7 @@
 					"texture": "warped_nylium_mini_block"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/mini_blocks/warped_nyliumath.json",
+			"minecraft:loot": "loot_tables/blocks/mini_blocks/warped_nylium.json",
 			"minecraft:collision_box": {
 				"origin": [-4, 0, -4],
 				"size": [8, 8, 8]

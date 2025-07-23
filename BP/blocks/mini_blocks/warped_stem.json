@@ -24,7 +24,7 @@
 					"texture": "warped_stem_mini_block"
 				}
 			},
-			"minecraft:loot": "loot_tables/blocks/mini_blocks/warped_stemath.json",
+			"minecraft:loot": "loot_tables/blocks/mini_blocks/warped_stem.json",
 			"minecraft:collision_box": {
 				"origin": [-4, 0, -4],
 				"size": [8, 8, 8]
