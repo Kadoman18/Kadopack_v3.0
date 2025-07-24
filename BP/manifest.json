@@ -1,18 +1,18 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Kadopack_v3.0 (BP)",
+		"name": "Kadopack v.3.0 (BP)",
 		"description": "Latest Iteration of the Kadopack after Combining all Kado-Packs.",
 		"uuid": "6ba64500-0849-4f0d-8b23-6da7b85050e3",
-		"version": [3, 1, 13],
+		"version": [3, 2, 4],
 		"min_engine_version": [1, 21, 0]
 	},
 	"modules": [
 		{
 			"type": "data",
-			"description": "Added Vertical Slabs.",
+			"description": "Updated pack icon.",
 			"uuid": "db986d35-6068-4ff7-9d50-d1f1f44cf4a8",
-			"version": [3, 1, 13]
+			"version": [3, 2, 4]
 		},
 		{
 			"type": "script",
@@ -25,7 +25,7 @@
 	"dependencies": [
 		{
 			"uuid": "b31ebaa9-e147-464c-b337-18d461e1f662",
-			"version": [3, 1, 6]
+			"version": [3, 2, 0]
 		},
 		{ "module_name": "@minecraft/server", "version": "2.0.0" }
 	],
