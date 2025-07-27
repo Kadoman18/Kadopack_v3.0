@@ -1,1 +1,180 @@
-{"format_version":"1.20.20","sound_definitions":{"block.click":{"category":"block","max_distance":null,"min_distance":null,"sounds":[{"name":"sounds/random/click","volume":0.01}]},"portal.portal":{"sounds":[{"name":"sounds/portal/portal","volume":0.05}]},"portal.travel":{"sounds":[{"name":"sounds/portal/travel","volume":0.05}]},"portal.trigger":{"sounds":[{"name":"sounds/portal/trigger","volume":0.05}]}}}
+{
+	"format_version": "1.20.20",
+	"sound_definitions": {
+		"block.click": {
+			"category": "block",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [{ "name": "sounds/random/click", "volume": 0.01 }]
+		},
+		"portal.portal": {
+			"sounds": [{ "name": "sounds/portal/portal", "volume": 0.05 }]
+		},
+		"portal.travel": {
+			"sounds": [{ "name": "sounds/portal/travel", "volume": 0.05 }]
+		},
+		"portal.trigger": {
+			"sounds": [{ "name": "sounds/portal/trigger", "volume": 0.05 }]
+		},
+		"mob.armadillo.roll": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/armadillo/roll1", "volume": 0.05 },
+				{ "name": "sounds/mob/armadillo/roll2", "volume": 0.05 },
+				{ "name": "sounds/mob/armadillo/roll3", "volume": 0.05 },
+				{ "name": "sounds/mob/armadillo/roll4", "volume": 0.05 }
+			]
+		},
+		"mob.armadillo.land": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/armadillo/land1", "volume": 0.05 },
+				{ "name": "sounds/mob/armadillo/land2", "volume": 0.05 },
+				{ "name": "sounds/mob/armadillo/land3", "volume": 0.05 },
+				{ "name": "sounds/mob/armadillo/land4", "volume": 0.05 }
+			]
+		},
+		"mob.armadillo.peek": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [{ "name": "sounds/mob/armadillo/peek", "volume": 0.05 }]
+		},
+		"mob.armadillo.unroll_start": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/armadillo/unroll_start", "volume": 0.05 }
+			]
+		},
+		"mob.armadillo.unroll_finish": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/armadillo/unroll_finish1", "volume": 0.05 },
+				{ "name": "sounds/mob/armadillo/unroll_finish2", "volume": 0.05 }
+			]
+		},
+		"mob.camel.sit": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/camel/sit1", "volume": 0.015 },
+				{ "name": "sounds/mob/camel/sit2", "volume": 0.015 },
+				{ "name": "sounds/mob/camel/sit3", "volume": 0.015 },
+				{ "name": "sounds/mob/camel/sit4", "volume": 0.015 }
+			]
+		},
+		"mob.camel.stand": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/camel/stand1", "volume": 0.015 },
+				{ "name": "sounds/mob/camel/stand2", "volume": 0.015 },
+				{ "name": "sounds/mob/camel/stand3", "volume": 0.015 },
+				{ "name": "sounds/mob/camel/stand4", "volume": 0.015 },
+				{ "name": "sounds/mob/camel/stand5", "volume": 0.015 }
+			]
+		},
+		"mob.camel.dash": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/camel/dash1", "volume": 0.05 },
+				{ "name": "sounds/mob/camel/dash2", "volume": 0.05 },
+				{ "name": "sounds/mob/camel/dash3", "volume": 0.05 },
+				{ "name": "sounds/mob/camel/dash4", "volume": 0.05 },
+				{ "name": "sounds/mob/camel/dash5", "volume": 0.05 },
+				{ "name": "sounds/mob/camel/dash6", "volume": 0.05 }
+			]
+		},
+		"mob.sniffer.drop_seed": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/random/pop", "pitch": 0.6, "volume": 0.04 },
+				{ "name": "sounds/random/pop", "pitch": 0.7, "volume": 0.04 },
+				{ "name": "sounds/random/pop", "pitch": 0.8, "volume": 0.04 }
+			]
+		},
+		"mob.sniffer.sniffsniff": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/sniffer/scenting1", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/scenting2", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/scenting3", "volume": 0.05 }
+			]
+		},
+		"mob.sniffer.searching": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/sniffer/searching1", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/searching1", "volume": 0.04 },
+				{ "name": "sounds/mob/sniffer/searching2", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/searching2", "volume": 0.04 },
+				{ "name": "sounds/mob/sniffer/searching3", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/searching3", "volume": 0.04 },
+				{ "name": "sounds/mob/sniffer/searching4", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/searching4", "volume": 0.04 },
+				{ "name": "sounds/mob/sniffer/searching5", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/searching5", "volume": 0.04 },
+				{ "name": "sounds/mob/sniffer/searching6", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/searching6", "volume": 0.04 }
+			]
+		},
+		"mob.sniffer.long_sniff": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/sniffer/sniffing1", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/sniffing2", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/sniffing3", "volume": 0.05 }
+			]
+		},
+		"mob.sniffer.digging": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/sniffer/longdig1", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/longdig2", "volume": 0.05 }
+			]
+		},
+		"mob.sniffer.stand_up": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/sniffer/digging_stop1", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/digging_stop2", "volume": 0.05 }
+			]
+		},
+		"mob.sniffer.happy": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [
+				{ "name": "sounds/mob/sniffer/happy1", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/happy2", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/happy3", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/happy4", "volume": 0.05 },
+				{ "name": "sounds/mob/sniffer/happy5", "volume": 0.05 }
+			]
+		}
+	}
+}

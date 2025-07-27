@@ -9,11 +9,11 @@
 		"pattern": ["##"],
 		"key": {
 			"#": {
-				"item": "minecraft:wooden_slab"
+				"item": "minecraft:dark_oak_slab"
 			}
 		},
 		"result": {
-			"item": "minecraft:planks",
+			"item": "minecraft:dark_oak_planks",
 			"count": 1
 		},
 		"group": "slabs_to_blocks"
