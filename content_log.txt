@@ -1,1 +1,4 @@
 FIX THE MOB HEADS ORIENTATION!!!
+
+[Sound][error]-sounds.json | entity_sounds | wolf | Expected "key" expression for entity with sound variants
+

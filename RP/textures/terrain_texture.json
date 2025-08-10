@@ -19,6 +19,9 @@
 		"carrot_crate_top": {
 			"textures": ["textures/blocks/crates/carrots/carrot_crate_top"]
 		},
+		"powder_keg_top": {
+			"textures": ["textures/blocks/powder_keg_top"]
+		},
 		"glass_trapdoor": {
 			"textures": "textures/blocks/trapdoors/glass_trapdoor"
 		},

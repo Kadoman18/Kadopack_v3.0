@@ -49,10 +49,11 @@ item.sweet_berries.name=Sweet Berries §f()
 tile.bed.noSleep=You can only sleep at night.
 tile.bed.notSafe=§5You may not sleep now, there are §4monsters §5nearby..
 tile.bed.tooFar=§2*Too Far*
-## Crop Crates
+## Crates
 tile.kado:beetroot_crate.name=Beetroot Crate
 tile.kado:carrot_crate.name=Carrot Crate
 tile.kado:potato_crate.name=Potato Crate
+tile.kado:powder_keg.name=Powder Keg
 ## Mob Heads
 itemGroup.name.mob_heads=§dMob Heads
 tile.kado:aggressive_panda_head.name=§dAggressive Panda Head

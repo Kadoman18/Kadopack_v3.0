@@ -2,7 +2,7 @@
 	"format_version": "1.20.30",
 	"minecraft:block": {
 		"description": {
-			"identifier": "kado:carrot_crate",
+			"identifier": "kado:powder_keg",
 			"menu_category": {
 				"category": "construction"
 			}
@@ -10,15 +10,15 @@
 		"components": {
 			"minecraft:material_instances": {
 				"*": {
-					"render_method": "alpha_test",
-					"texture": "carrot_crate_side"
+					"texture": "barrel_side",
+					"render_method": "alpha_test"
 				},
 				"up": {
-					"texture": "carrot_crate_top",
+					"texture": "powder_keg_top",
 					"render_method": "alpha_test"
 				},
 				"down": {
-					"texture": "crate_bottom",
+					"texture": "barrel_bottom",
 					"render_method": "alpha_test"
 				}
 			},

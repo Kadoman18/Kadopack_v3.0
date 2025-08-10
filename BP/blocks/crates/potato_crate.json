@@ -23,8 +23,17 @@
 				}
 			},
 			"minecraft:geometry": "geometry.block",
+			"tag:minecraft:is_axe_item_destructible": {},
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 0.5
+				"seconds_to_destroy": 3.0,
+				"item_specific_speeds": [
+					{ "item": "wooden_axe", "destroy_speed": 1.5 },
+					{ "item": "stone_axe", "destroy_speed": 0.75 },
+					{ "item": "iron_axe", "destroy_speed": 0.5 },
+					{ "item": "diamond_axe", "destroy_speed": 0.4 },
+					{ "item": "netherite_axe", "destroy_speed": 0.35 },
+					{ "item": "golden_axe", "destroy_speed": 0.25 }
+				]
 			}
 		}
 	}
