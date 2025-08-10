@@ -31,6 +31,9 @@
 	"kado:carrot_crate": {
 		"sound": "wood"
 	},
+	"kado:powder_keg": {
+		"sound": "wood"
+	},
 	"kado:glass_trapdoor": {
 		"sound": "glass"
 	},
